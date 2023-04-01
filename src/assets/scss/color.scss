@@ -1,0 +1,17 @@
+.ao-text-secondary-color
+{
+    color :rgb(var(--v-theme-textSecondary))
+}
+
+.ao-text-secondary-color-700
+{
+    color :rgb(var(--v-theme-textSecondary700))
+}
+.ao-text-body
+{
+    color :rgb(var(--v-theme-body))
+}
+
+.ao-text-600 {
+    color: $text-600;
+}

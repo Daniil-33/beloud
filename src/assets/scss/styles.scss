@@ -1,0 +1,55 @@
+$tealColor: teal;
+
+$body-font-family: 'Inter', 'Roboto', sans-serif;
+
+@use 'vuetify/settings' with (
+  // $button-height: 56px,
+	$body-font-family: $body-font-family,
+	$color-pack: false,
+);
+html { overflow-y: auto }
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 4px;
+  border: 3px solid white;
+  background: #B5C5D1;
+  border-radius: 12px;
+}
+
+// .customize-input-icons-small{
+// 		i{
+// 			font-size:0.81em;
+// 			width:16px;
+// 			height:16px;
+// 		}
+// 		background:rgba(15, 24, 34, 0.05);
+// 		border-radius: 50%;
+// 		width:16px;
+// 		height:16px;
+// 		padding:0;
+// 		margin-top: 10px;
+// 	}
+// 	.v-field__prepend-inner{
+// 		i{
+// 			font-size:0.81em;
+// 			width:16px;
+// 			height:16px;
+// 		}
+// 		width:16px;
+// 		height:16px;
+// 		padding:0;
+// 		margin-top: 16px;
+// 	}
+// 	.v-text-field__suffix{
+// 		font-size: 0.75em;
+//     font-weight: 400;
+// 	}
+// }
+
+.cursor-pointer {
+  cursor: pointer;
+}
