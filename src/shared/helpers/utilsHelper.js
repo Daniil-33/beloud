@@ -59,69 +59,12 @@ export function round(number) {
 	return Math.round(parseFloat(number) * 100) / 100
 }
 
-export function currencyFormat(value, currency) {
-	return value.toLocaleString('uk-UA', { style: 'currency', currency: currency })
-}
-
 export function createMicroTask(callback, ms = 0) {
 	return setTimeout(() => {
 		callback()
 	}, ms)
 }
 
-export function setExtraErrors(state, error) {
-	state.extraErrors = Object.fromEntries(
-		Object.entries(error?.response?.data || {}).map(([key, errors]) => [
-			key,
-			Array.isArray(errors) ? errors.join(' ') : errors,
-		])
-	)
-}
-
-export async function sendRequestsByPieces(requestFunctionsArr = [], result = { executed: 0 }) {
-	const maxRequestCountPerTime = 19
-	const recurtionCall = requestFunctionsArr.length > maxRequestCountPerTime
-
-	const promises = requestFunctionsArr.slice(0, maxRequestCountPerTime).map((requestFunc) => {
-		const request = requestFunc().then(() => (result.executed += 1))
-
-		return request
-	})
-
-	if (recurtionCall) {
-		await Promise.allSettled(promises)
-
-		return sendRequestsByPieces(requestFunctionsArr.slice(19), result)
-	} else {
-		return Promise.allSettled(promises)
-	}
-}
-
-export function throttle(func, ms) {
-	let isThrottled = false,
-		savedArgs,
-		savedThis
-
-	function wrapper() {
-		if (isThrottled) {
-			// (2)
-			savedArgs = arguments
-			savedThis = this
-			return
-		}
-
-		func.apply(this, arguments) // (1)
-
-		isThrottled = true
-
-		setTimeout(function () {
-			isThrottled = false // (3)
-			if (savedArgs) {
-				wrapper.apply(savedThis, savedArgs)
-				savedArgs = savedThis = null
-			}
-		}, ms)
-	}
-
-	return wrapper
+export function getId() {
+	return Math.random().toString(36).substr(2, 9)
 }
