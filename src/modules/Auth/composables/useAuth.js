@@ -21,7 +21,7 @@ export default function useAuth() {
 			setAuthAccessToken(accessToken);
 			setAuthRefreshToken(refreshToken);
 
-			router.push({ name: 'Navigator' })
+			router.push({ name: 'Home' })
 			return true;
 		}
 
@@ -79,7 +79,7 @@ export default function useAuth() {
 		setAuthAccessToken(accessToken);
 		setAuthRefreshToken(refreshToken);
 
-		router.push({ name: 'Navigator' })
+		router.push({ name: 'Home' })
 	};
 
 	return {

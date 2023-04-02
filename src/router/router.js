@@ -1,14 +1,26 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Auth from '@/views/Auth.vue'
+import Home from '@/views/Home.vue'
+import Library from '@/views/Library.vue'
 import Navigator from '@/views/Navigator.vue'
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
 	routes: [
 		{
-			name: 'Navigator',
+			name: 'Home',
 			path: '/',
+			component: Home,
+		},
+		{
+			name: 'Library',
+			path: '/library',
+			component: Library,
+		},
+		{
+			name: 'Navigator',
+			path: '/navigator',
 			component: Navigator,
 		},
 		{
