@@ -1,12 +1,10 @@
 .text-uppercase {
 	text-transform: uppercase;
 }
-
-.question-form {
-	border-left: 4px solid transparent !important;
-	transition: all .1s ease-in-out;
+.cursor-pointer {
+	cursor: pointer;
 }
 
-.question-form--focused {
-	border-left: 4px solid rgb(var(--v-theme-primary)) !important;
+body {
+	background-color: var(--darken);
 }

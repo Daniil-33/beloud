@@ -4,7 +4,7 @@
 			<v-tabs
 				fixed-tabs
 				rounded
-				bg-color="indigo-darken-2"
+				bg-color="secondary"
 				v-model="tab"
 			>
 				<v-tab

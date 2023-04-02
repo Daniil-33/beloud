@@ -2,12 +2,7 @@
 	<v-app>
 		<v-main>
 			<component :is="layoutName">
-				<template v-if="!isAuth">
-					<Auth />
-				</template>
-				<template v-else>
-					<router-view />
-				</template>
+				<router-view />
 			</component>
 		</v-main>
 	</v-app>

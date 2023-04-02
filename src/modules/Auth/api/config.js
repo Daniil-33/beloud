@@ -1,13 +1,10 @@
 export default {
 	'login': {
-		url: '/auth/login/',
+		url: '/auth/login',
 		method: 'POST'
 	},
 	'register': {
-		url: '/auth/register/',
+		url: '/auth/register',
 		method: 'POST'
 	},
-	'refresh': {
-		url: '/auth/refresh/'
-	}
 }

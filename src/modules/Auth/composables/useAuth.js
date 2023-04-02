@@ -5,9 +5,13 @@ import { LOCAL_STORAGE_AUTH_ACCESS_TOKEN_KEY, LOCAL_STORAGE_AUTH_REFRESH_TOKEN_K
 import { useAuthStore } from '../store/authStore';
 import { useApplicationStore } from '@/shared/stores/applicationStore';
 
+import { useRouter, useRoute } from 'vue-router'
+
 export default function useAuth() {
 	const { setAuthAccessToken, setAuthRefreshToken } = useAuthStore();
 	const { addErrorNotify, addSuccessNotify } = useApplicationStore();
+
+	const router = useRouter();
 
 	const tryAutoLogin = () => {
 		const accessToken = clientStorageLocal.get(LOCAL_STORAGE_AUTH_ACCESS_TOKEN_KEY);
@@ -17,6 +21,7 @@ export default function useAuth() {
 			setAuthAccessToken(accessToken);
 			setAuthRefreshToken(refreshToken);
 
+			router.push({ name: 'Navigator' })
 			return true;
 		}
 
@@ -68,12 +73,13 @@ export default function useAuth() {
 	};
 
 	const saveAuthTokens = ({ accessToken, refreshToken }) => {
-		debugger
 		clientStorageLocal.add(LOCAL_STORAGE_AUTH_ACCESS_TOKEN_KEY, accessToken);
 		clientStorageLocal.add(LOCAL_STORAGE_AUTH_REFRESH_TOKEN_KEY, refreshToken);
 
 		setAuthAccessToken(accessToken);
 		setAuthRefreshToken(refreshToken);
+
+		router.push({ name: 'Navigator' })
 	};
 
 	return {

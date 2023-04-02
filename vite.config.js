@@ -18,9 +18,9 @@ export default defineConfig({
 		vuetify({
 			autoImport: true,
 			// https://next.vuetifyjs.com/en/features/sass-variables/#component-specific-variables
-			// styles: {
-			// 	configFile: './src/assets/scss/styles.scss',
-			// },
+			styles: {
+				configFile: './src/assets/scss/styles.scss',
+			},
 		}),
 		topLevelAwait({
 			// The export name of top-level await promise for each chunk module
@@ -59,11 +59,11 @@ export default defineConfig({
 		},
 	},
 	css: {
-		//   preprocessorOptions: {
-		//     scss: {
-		//       additionalData: `@import "./src/assets/scss/variables.scss";`
-		//     }
-		//   }
+		preprocessorOptions: {
+		    scss: {
+		      additionalData: `@import "./src/assets/scss/variables.scss";`
+		    }
+		}
 	},
 	server: {
 		port: 8088,

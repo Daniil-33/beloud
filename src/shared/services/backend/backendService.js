@@ -1,12 +1,13 @@
+import router from './router/router'
+
 class Interceptor {
-	constructor() {}
+	constructor(router) {
+		this.router = router
+	}
 
 	interceptRequest(requestConfig) {
-		const {
-			method,
-			url,
-			params,
-			data,
-		} = requestConfig;
+		return this.router.call(requestConfig.url, requestConfig.method, requestConfig.params, requestConfig.data)
 	}
 }
+
+export default new Interceptor(router)

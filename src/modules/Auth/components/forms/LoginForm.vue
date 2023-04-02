@@ -32,7 +32,7 @@
 						</v-card-text>
 						<v-card-actions>
 							<v-spacer />
-							<v-btn color="primary" @click="onSubmit">Login</v-btn>
+							<v-btn color="accent" @click="onSubmit">Login</v-btn>
 						</v-card-actions>
 					</v-form>
 				</v-card>

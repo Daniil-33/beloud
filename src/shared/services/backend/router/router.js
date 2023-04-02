@@ -1,3 +1,5 @@
+import routes from './routes'
+
 const REQUEST_DELAY = 1500;
 
 class Router {
@@ -18,8 +20,14 @@ class Router {
 	call(url, method, params, data) {
 		const route = this.getRouteAccessByURL(url, method);
 
-		return new Promise((resolve, reject) => {
-			setTimeout(() => resolve(route.handler(params, data)), REQUEST_DELAY);
-		})
+		if (route.handler.constructor.name === 'AsyncFunction') {
+			return route.handler(params, data);
+		} else {
+			return new Promise((resolve, reject) => {
+				setTimeout(() => resolve(route.handler(params, data)), REQUEST_DELAY);
+			})
+		}
 	}
 }
+
+export default new Router(routes)

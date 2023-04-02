@@ -55,7 +55,7 @@
 						</v-card-text>
 						<v-card-actions>
 							<v-spacer />
-							<v-btn color="primary" @click="onSubmit">Register</v-btn>
+							<v-btn color="accent" @click="onSubmit">Register</v-btn>
 						</v-card-actions>
 					</v-form>
 				</v-card>

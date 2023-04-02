@@ -1,3 +1,5 @@
+import audioController from "../../controllers/audioController"
+
 export default [
 	{
 		url: '/audio',
