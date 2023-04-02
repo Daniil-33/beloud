@@ -2,9 +2,11 @@
 	<div class="w-100 h-screen overflow-hidden">
 		<Header />
 
-		<div class="ml-5 mt-5">
-			<slot></slot>
-		</div>
+		<v-container>
+			<div class="ml-5 mt-5">
+				<slot></slot>
+			</div>
+		</v-container>
 	</div>
 </template>
 <script>

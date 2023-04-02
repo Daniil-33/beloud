@@ -1,5 +1,5 @@
 <template>
-	Library
+	Home
 </template>
 <script>
 export default {}
