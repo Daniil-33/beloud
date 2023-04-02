@@ -1,7 +1,7 @@
 import clientIndexDBStorageService from "../../clientIndexDBStorageService"
 import { USER_DATA_KEYS } from '@/shared/config/clientIndexDBStorageConfig'
 import { getId } from '@/shared/helpers/utilsHelper'
-import { getAudio, getPopularAudio } from '@/shared/services/backend/controllers/audioController'
+import audioController from '@/shared/services/backend/controllers/audioController'
 
 const clientStorage = await clientIndexDBStorageService()
 
@@ -26,7 +26,7 @@ export default {
 		const playlists = await Promise.all(userPlaylists.map(id => clientStorage.getPlayList(id)))
 
 		playlists.forEach(playlist => {
-			playlist.audios = playlist.audios.map(id => getAudio({ id }))
+			playlist.audios = playlist.audios.map(id => audioController.getAudio({ id }))
 		})
 
 		return playlists
@@ -35,7 +35,7 @@ export default {
 		const { playlistId } = params
 		const playlist = await clientStorage.getPlayList(playlistId)
 
-		playlist.audios = playlist.audios.map(id => getAudio({ id }))
+		playlist.audios = playlist.audios.map(id => audioController.getAudio({ id }))
 
 		return playlist
 	},
@@ -78,9 +78,9 @@ export default {
 	async getLikedAudios(params, data) {
 		const userLiked = await clientStorage.getUserData(USER_DATA_KEYS.LIKED)
 
-		return userLiked.map(id => getAudio({ id }))
+		return userLiked.map(id => audioController.getAudio({ id }))
 	},
 	async getMayLikeAudios(params, data) {
-		return getPopularAudio()
+		return audioController.getPopularAudio()
 	}
 }

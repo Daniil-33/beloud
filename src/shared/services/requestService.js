@@ -1,3 +1,5 @@
+import Interceptor from './backend/backendService';
+
 import axios from 'axios'
 
 const defaultRequestConfig = {
@@ -28,6 +30,8 @@ export default class RequestService {
 			...defaultRequestConfig,
 			...options
 		};
+
+		return Interceptor.interceptRequest(requestConfig)
 
 		return new Promise((resolve, reject) => {
 			axios(requestConfig)

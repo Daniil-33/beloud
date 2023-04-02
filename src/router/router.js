@@ -1,10 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Auth from '@/views/Auth.vue'
+import Navigator from '@/views/Navigator.vue'
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
 	routes: [
+		{
+			name: 'Navigator',
+			path: '/',
+			component: Navigator,
+		},
 		{
 			name: 'Auth',
 			path: '/auth',
@@ -18,7 +24,6 @@ import { useAuthModule } from '@/modules/Auth/'
 router.beforeEach(async (to, from) => {
 	const { isAuth } = useAuthModule()
 
-	debugger
 	if (
 	  // make sure the user is authenticated
 	  !isAuth.value &&
