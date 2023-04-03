@@ -1,5 +1,5 @@
 <template>
-	<div class="w-100 h-screen overflow-hidden">
+	<div class="w-100 h-screen overflow-y-scroll">
 		<Header />
 
 		<v-container>
@@ -19,3 +19,8 @@ export default {
 	},
 }
 </script>
+<style scoped>
+	.overflow-y-scroll{
+		overflow-y: scroll;
+	}
+</style>
