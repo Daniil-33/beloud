@@ -26,6 +26,7 @@
     "qs": "6.11.0",
     "ramda": "^0.28.0",
     "roboto-fontface": "*",
+    "swiper": "^9.2.0",
     "tiny-emitter": "^2.1.0",
     "vite-plugin-top-level-await": "1.2.1",
     "vue": "3.2.38",
