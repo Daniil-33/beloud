@@ -30,9 +30,7 @@
 			<div class="accent-text">Now</div>
 			.
 		</div>
-		<div class="main-grid">
-			<PopularNowSongs />
-		</div>
+		<PopularNowSongs />
 	</div>
 </template>
 <script>

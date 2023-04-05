@@ -4,14 +4,14 @@ const RANDOM_AUDIO_COUNT = 20
 
 const random20Audios = () => {
 	let maxAudioIndex = audios.length - 1
-	let audios = []
+	let selection = []
 
 	for (let i = 0; i < RANDOM_AUDIO_COUNT; i++) {
 		let randomAudioIndex = Math.floor(Math.random() * maxAudioIndex)
-		audios.push(audios[randomAudioIndex])
+		selection.push(audios[randomAudioIndex])
 	}
 
-	return audios
+	return selection
 }
 
 export default {

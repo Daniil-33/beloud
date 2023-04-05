@@ -1,13 +1,20 @@
 <template>
-	<CardTileList :items="songs" >
-		<template #default="{ item, index }">
-			<SongCard :cardData="item"/>
-		</template>
-	</CardTileList>
+	<Loader
+		:loading="loadingFlags.loadingPopularAudio"
+	>
+		<CardTileList :items="popularLoadedAudio" >
+			<template #default="{ item, index }">
+				<SongCard :cardData="item"/>
+			</template>
+		</CardTileList>
+	</Loader>
 </template>
 <script>
 import CardTileList from './UI/CardTileList.vue'
 import SongCard from './UI/SongCard.vue'
+import Loader from './UI/Loader.vue'
+
+import useAudio from '../composables/useAudio'
 
 import { ref } from 'vue'
 
@@ -15,7 +22,8 @@ export default {
 	name: 'PopularNowSongs',
 	components: {
 		CardTileList,
-		SongCard
+		SongCard,
+		Loader,
 	},
 	setup() {
 		const songs = ref([
@@ -71,8 +79,19 @@ export default {
 			},
 		])
 
+		const {
+			loadingFlags,
+			popularLoadedAudio,
+			getPopularAudio
+		} = useAudio()
+
+		getPopularAudio()
+
 		return {
-			songs
+			songs,
+			loadingFlags,
+			popularLoadedAudio,
+			getPopularAudio
 		};
 	}
 }
