@@ -2,12 +2,12 @@ import userController from "../../controllers/userController";
 
 export default [
 	{
-		url: '/user/playlists',
+		url: '/user/playlists/',
 		method: 'GET',
 		handler: userController.getPlayLists,
 	},
 	{
-		url: '/user/playlist',
+		url: '/user/playlist/',
 		method: 'POST',
 		handler: userController.createPlayList,
 	},
@@ -17,33 +17,28 @@ export default [
 		handler: userController.removePlayList,
 	},
 	{
+		url: '/user/playlist/audio',
+		method: 'POST',
+		handler: userController.addAudioToPlayList,
+	},
+	{
+		url: '/user/playlist/audio',
+		method: 'DELETE',
+		handler: userController.removeAudioFromPlayList,
+	},
+	{
 		url: '/user/liked',
 		method: 'GET',
 		handler: userController.getLikedAudios,
 	},
 	{
-		url: '/user/liked/add',
+		url: '/user/liked/',
 		method: 'POST',
 		handler: userController.likeAudio,
 	},
 	{
-		url: '/user/liked/remove',
-		method: 'POST',
+		url: '/user/liked/',
+		method: 'DELETE',
 		handler: userController.unlikeAudio,
-	},
-	{
-		url: '/user/playlist/add-audio',
-		method: 'POST',
-		handler: userController.addAudioToPlayList,
-	},
-	{
-		url: '/user/playlist/delete-audio',
-		method: 'POST',
-		handler: userController.removeAudioFromPlayList,
-	},
-	{
-		url: '/user/may-like/',
-		method: 'GET',
-		handler: userController.getMayLikeAudios,
 	},
 ]

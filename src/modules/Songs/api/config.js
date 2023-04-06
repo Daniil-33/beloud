@@ -6,5 +6,9 @@ export default {
 	getPopularAudio: {
 		url: '/audio/popular',
 		method: 'GET',
+	},
+	getUserMayLikeAudio: {
+		url: '/audio/user-may-like',
+		method: 'GET',
 	}
 }

@@ -1,87 +1,42 @@
 <template>
-	<CardSwiper
-		:items="songs"
+	<Loader
+		:loading="loadingFlags.loadingUserMayLikeAudio"
 	>
-		<template #default="{ item }">
-			<SongCard :cardData="item"></SongCard>
-		</template>
-	</CardSwiper>
+		<CardSwiper
+			:items="userMayLikeLoadedAudio"
+		>
+			<template #default="{ item }">
+				<SongCard :cardData="item"></SongCard>
+			</template>
+		</CardSwiper>
+	</Loader>
 </template>
 <script>
 import SongCard from './UI/SongCard.vue'
 import CardSwiper from './UI/CardSwiper.vue'
+import Loader from './UI/Loader.vue'
 
-import { ref } from 'vue'
+import useAudio from '../composables/useAudio'
 
 export default {
 	name: 'MayLikeSongs',
-	props: {
-		songs: {
-			type: Array,
-			required: true,
-			default: () => []
-		}
-	},
 	components: {
 		SongCard,
-		CardSwiper
+		CardSwiper,
+		Loader
 	},
 	setup() {
-		const songs = ref([
-			{
-				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana',
-				image: '/images/song-image.jpg'
-			},
-			{
-				title: 'Smells Like Teen Spirit',
-				groupName: 'Nirvana 2',
-				image: '/images/song-image.jpg'
-			},
-			{
-				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 3',
-				image: '/images/song-image.jpg'
-			},
-			{
-				title: 'Smells Like Teen Spirit',
-				groupName: 'Nirvana 5',
-				image: '/images/song-image.jpg'
-			},
-			{
-				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 6',
-				image: '/images/song-image.jpg'
-			},
-			{
-				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 7',
-				image: '/images/song-image.jpg'
-			},
-			{
-				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 8',
-				image: '/images/song-image.jpg'
-			},
-			{
-				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 9',
-				image: '/images/song-image.jpg'
-			},
-			{
-				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 4',
-				image: '/images/song-image.jpg'
-			},
-			{
-				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 4',
-				image: '/images/song-image.jpg'
-			},
-		])
+		const {
+			loadingFlags,
+			userMayLikeLoadedAudio,
+			getUserMayLikeAudio,
+		} = useAudio()
+
+		getUserMayLikeAudio()
 
 		return {
-			songs
+			loadingFlags,
+			userMayLikeLoadedAudio,
 		};
 	}
 }

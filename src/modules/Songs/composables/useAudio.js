@@ -11,11 +11,13 @@ export default function useSongs() {
 	const singleLoadedAudio = ref(null);
 	const filteredLoadedAudio = ref([]);
 	const popularLoadedAudio = ref([]);
+	const userMayLikeLoadedAudio = ref([]);
 
 	const loadingFlags = reactive({
 		loadingSingleAudio: false,
 		loadingFilteredAudio: false,
 		loadingPopularAudio: false,
+		loadingUserMayLikeAudio: false,
 	});
 
 	const getAudioById = (id) => {
@@ -55,15 +57,26 @@ export default function useSongs() {
 			.finally(() => loadingFlags.loadingPopularAudio = false);
 	};
 
+	const getUserMayLikeAudio = () => {
+		loadingFlags.loadingUserMayLikeAudio = true;
+
+		ApiService.request('getUserMayLikeAudio', {})
+			.then((audios) => userMayLikeLoadedAudio.value = audios)
+			.catch((error) => console.log(error))
+			.finally(() => loadingFlags.loadingUserMayLikeAudio = false);
+	}
+
 	return {
 		loadingFlags,
 
 		singleLoadedAudio,
 		filteredLoadedAudio,
 		popularLoadedAudio,
+		userMayLikeLoadedAudio,
 
 		getAudioById,
 		getAudioFiltered,
-		getPopularAudio
+		getPopularAudio,
+		getUserMayLikeAudio
 	};
 }
