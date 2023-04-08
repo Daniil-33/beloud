@@ -32,4 +32,5 @@ export const STORES_METHODS_MAP = {
 export const USER_DATA_KEYS = {
     LIKED: 'liked',
     PLAYLISTS: 'playlists',
+    RECENTLY_PLAYED: 'recently_played',
 }

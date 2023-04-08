@@ -11,6 +11,8 @@
 import SongCard from './UI/SongCard.vue'
 import CardSwiper from './UI/CardSwiper.vue'
 
+import { useUserModule } from '@/modules/User/'
+
 import { ref } from 'vue'
 
 export default {
@@ -79,6 +81,10 @@ export default {
 				image: '/images/song-image.jpg'
 			},
 		])
+
+		const {
+			loadingFlags,
+		} = useUserModule()
 
 		return {
 			songs

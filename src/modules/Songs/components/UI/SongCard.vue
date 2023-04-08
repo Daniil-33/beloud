@@ -13,7 +13,7 @@
 			</div>
 			<div class="song-card__body">
 				<div class="song-card__body-title">{{cardData.title}}</div>
-				<div class="song-card__body-group">{{cardData.groupName}}</div>
+				<div class="song-card__body-group">{{cardData.author}}</div>
 			</div>
 		</div>
 	</div>
