@@ -10,5 +10,10 @@ export default [
 		url: '/audio/popular',
 		method: 'GET',
 		handler: audioController.getPopularAudio,
+	},
+	{
+		url: '/audio/user-may-like',
+		method: 'GET',
+		handler: audioController.getPopularAudio,
 	}
 ]

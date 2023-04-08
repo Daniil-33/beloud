@@ -1,6 +1,6 @@
 import routes from './routes'
 
-const REQUEST_DELAY = 1500;
+const REQUEST_DELAY = 5000;
 
 class Router {
 	constructor(routes) {
