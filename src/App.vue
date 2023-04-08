@@ -3,12 +3,17 @@
 		<v-main>
 			<component :is="layoutName">
 				<router-view />
+
+				<template v-slot:player>
+					<Player />
+				</template>
 			</component>
 		</v-main>
 	</v-app>
 </template>
 <script>
 import { Auth, useAuthModule } from '@/modules/Auth/'
+import { Player } from '@/modules/Player/'
 
 import DefaultLayout from './shared/layouts/DefaultLayout.vue';
 import EmptyLayout from './shared/layouts/EmptyLayout.vue';
@@ -20,7 +25,8 @@ export default {
 	components: {
 		Auth,
 		DefaultLayout,
-		EmptyLayout
+		EmptyLayout,
+		Player,
 	},
 	setup() {
 		const { isAuth } = useAuthModule();

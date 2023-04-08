@@ -1,5 +1,5 @@
 <template>
-	<div class="w-100 h-screen overflow-y-scroll">
+	<div class="w-100 h-screen overflow-y-scroll" style="padding-bottom: 120px;">
 		<Header />
 
 		<v-container>
@@ -7,6 +7,8 @@
 				<slot></slot>
 			</div>
 		</v-container>
+
+		<slot name="player" />
 	</div>
 </template>
 <script>
