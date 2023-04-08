@@ -12,7 +12,9 @@
 				</div>
 			</div>
 			<div class="song-card__body">
-				<div class="song-card__body-title">{{cardData.title}}</div>
+				<div class="song-card__body-title">
+					{{cardData.title}} wewqewqewqeqweqweqweqwewqrqewewqeqwqe
+				</div>
 				<div class="song-card__body-group">{{cardData.author}}</div>
 			</div>
 		</div>
@@ -37,76 +39,7 @@ export default {
 }
 </script>
 <style scoped>
-	.song-card, .song-card *{
-		box-sizing: border-box;
-	}
-	.song-card {
-		padding: 10px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		width: 222px;
-		/* border: 1px solid black; */
-		width: 100%;
-		cursor:pointer;
-	}
-	.song-card__body-title{
-		font-weight: 600;
-		font-size: 24px;
-		line-height: 32px;
-		margin-top: 16px;
-	}
-	.song-card__body-group{
-		font-weight: 600;
-		font-size: 18px;
-		line-height: 24px;
-		color: #F6D68D;
-		margin-top: 5px;
-	}
-	.song-card__image-wrapper{
-		width: 100%;
-		padding-top: 100%;
-		position: relative;
-	}
-	.song-card__image-inner{
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		border-radius: 10px;
-	}
-	.song-card__image-inner img{
-		width: 100%;
-		border-radius: 15px;
-	}
-	.song-card.active{
-		/* opacity: 0.5; */
-		border: 2px solid rgba(254, 71, 115, 0.5);
-		border-radius: 10px;
-	}
-	.song-card.active .song-card__image-wrapper img, .song-card.active .song-card__body{
-		opacity: 0.5;
-	}
-
-	.song-card__play{
-		position:absolute;
-		top: 50% ;
-		left: 50%;
-		transform: translateY(-50%) translateX(-50%);
-		width: 70px;
-		height: 70px;
-		background: rgba(239, 239, 239, 0.24);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 50px;
-	}
-	.song-card__play svg{
-		width: 30px;
-		height: 30px;
-		margin-left: 10%;
-	}
+	
 	/* .song-card__wrapper{
 		position:relative
 	} */

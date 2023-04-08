@@ -1,9 +1,11 @@
 <template>
-	<div class="main-grid">
+
+	<div class="main-grid p-x">
 		<template
 			v-for="(item, index) in items"
 			:key="index"
-		>
+		>	
+		
 			<slot :item="item" :index="index"></slot>
 		</template>
 	</div>

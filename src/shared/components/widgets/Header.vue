@@ -45,6 +45,10 @@ export default {
 				title: 'Navigator',
 				to: '/navigator',
 			},
+			{
+				title: 'Playlists',
+				to: '/playlists',
+			},
 		]
 		return {
 			navigationLinks

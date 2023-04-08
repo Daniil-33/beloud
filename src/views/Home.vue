@@ -90,7 +90,5 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.swiper-container {
-	padding: 0 100px;
-}
+
 </style>
