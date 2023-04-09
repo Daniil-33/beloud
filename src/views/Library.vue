@@ -1,8 +1,6 @@
 <template>
 	<div class="title mb-8 mt-9">
-		Ваша персональна
-		<div class="accent-text">Бібліотека</div>
-		.
+		Ваша персональна <span class="accent-text">Бібліотека</span>.
 	</div>
 	<div class="dropdown-block mt-8">
 		<div class="dropdown-block__header">

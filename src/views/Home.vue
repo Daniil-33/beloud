@@ -23,25 +23,19 @@
 	</v-sheet> -->
 	<div class="home__swiper mt-15">
 		<div class="title">
-			Нещодавно
-			<div class="accent-text">Прослухані</div>
-			.
+			Нещодавно <span class="accent-text">Прослухані</span>.
 		</div>
 		<RecentlyListenedSongs />
 	</div>
 	<div class="home__swiper mt-15">
 		<div class="title">
-			Вам може
-			<div class="accent-text">Сподобатись</div>
-			.
+			Вам може <span class="accent-text">Сподобатись</span>.
 		</div>
 		<MayLikeSongs />
 	</div>
 	<div class="home__swiper mt-15">
 		<div class="title mb-8">
-			Популярні
-			<div class="accent-text">Зараз</div>
-			.
+			Популярні <span class="accent-text">Зараз</span>.
 		</div>
 		<PopularNowSongs />
 	</div>

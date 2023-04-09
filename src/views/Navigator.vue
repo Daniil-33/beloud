@@ -1,27 +1,21 @@
 <template>
 	<div class="home__swiper mt-15">
 		<div class="title">
-			На основі ваших
-			<div class="accent-text">Вподобань</div>
-			.
+			На основі ваших <span class="accent-text">Вподобань</span>.
 		</div>
 		<MayLikeSongs />
 	</div>
 
 	<div class="home__swiper mt-15">
 		<div class="title">
-			Топ
-			<div class="accent-text">Чарт</div>
-			.
+			Топ <span class="accent-text">Чарт</span>.
 		</div>
 		<TopChartSongs />
 	</div>
 
 	<div class="home__swiper mt-15">
 		<div class="title mb-8">
-			Щось
-			<div class="accent-text">Нове</div>
-			.
+			Щось <span class="accent-text">Нове</span>.
 		</div>
 		<PopularNowSongs />
 	</div>
