@@ -3,7 +3,7 @@
     "short_name": "Beloud",
     "icons": [
         {
-            "src": "/favicons/fav-192x192.png",
+            "src": "/beloud/favicons/fav-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         }

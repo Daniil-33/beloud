@@ -20,14 +20,14 @@ app.use(createPinia())
 
 app.mount('#app')
 
-import { registerSW } from 'virtual:pwa-register'
+// import { registerSW } from 'virtual:pwa-register'
 
-registerSW({
-	immediate: true,
-	onNeedRefresh() {
-		// show a prompt to user to refresh the app
-	},
-	onOfflineReady() {
-		// show a ready to work offline message to user
-	},
-})
+// registerSW({
+// 	immediate: true,
+// 	onNeedRefresh() {
+// 		// show a prompt to user to refresh the app
+// 	},
+// 	onOfflineReady() {
+// 		// show a ready to work offline message to user
+// 	},
+// })
