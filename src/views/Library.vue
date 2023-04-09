@@ -13,7 +13,7 @@
 			<div class="dropdown-block__header-title">Songs</div>
 			<div class="dropdown-block__header-button">View all</div>
 		</div>
-		<div class="dropdown-block__body">
+		<div class="dropdown-block__body pl">
 			<div class="main-grid">
 				<div class="main-grid-item" v-for="(item, index) in songs" :key="index" >
 					<SongCard :cardData="item"></SongCard>
@@ -26,7 +26,7 @@
 			<div class="dropdown-block__header-title">Playlists</div>
 			<div class="dropdown-block__header-button">Hide</div>
 		</div>
-		<div class="dropdown-block__body">
+		<div class="dropdown-block__body pl">
 			<div class="main-grid">
 				<div class="main-grid-item" v-for="(item, index) in playlists" :key="index" >
 					<PlaylistCard :cardData="item"></PlaylistCard>
@@ -55,52 +55,52 @@ export default {
 			{
 				title:'Smells Like Teen Spirit ',
 				groupName:'Nirvana',
-				image: SongImage
+				image: '/images/song-image.jpg'
 			},
 			{
 				title:'Smells Like Teen Spirit',
 				groupName:'Nirvana 2',
-				image: SongImage
+				image: '/images/song-image.jpg'
 			},
 			{
 				title:'Smells Like Teen Spirit ',
 				groupName:'Nirvana 3',
-				image: SongImage
+				image: '/images/song-image.jpg'
 			},
 			{
 				title:'Smells Like Teen Spirit',
 				groupName:'Nirvana 5',
-				image: SongImage
+				image: '/images/song-image.jpg'
 			},
 			{
 				title:'Smells Like Teen Spirit ',
 				groupName:'Nirvana 6',
-				image: SongImage
+				image: '/images/song-image.jpg'
 			},
 			{
 				title:'Smells Like Teen Spirit ',
 				groupName:'Nirvana 7',
-				image: SongImage
+				image: '/images/song-image.jpg'
 			},
 			{
 				title:'Smells Like Teen Spirit ',
 				groupName:'Nirvana 8',
-				image: SongImage
+				image: '/images/song-image.jpg'
 			},
 			{
 				title:'Smells Like Teen Spirit ',
 				groupName:'Nirvana 9',
-				image: SongImage
+				image: '/images/song-image.jpg'
 			},
 			{
 				title:'Smells Like Teen Spirit ',
 				groupName:'Nirvana 4',
-				image: SongImage
+				image: '/images/song-image.jpg'
 			},
 			{
 				title:'Smells Like Teen Spirit ',
 				groupName:'Nirvana 4',
-				image: SongImage
+				image: '/images/song-image.jpg'
 			},
 		])
 		const playlists = ref([
@@ -117,14 +117,14 @@ export default {
 				songsCount: 10
 			},
 			{
-				title: 'Playlist: AC/DC',
+				title: 'Playlist: AC/DC ewqeqwrqrqwewqeqwewq',
 				groupName: 'Nirvana',
 				image: PlaylistImage,
 				songsCount: 10
 			},
 			{
 				title: 'Playlist: AC/DC',
-				groupName: 'Nirvana',
+				groupName: 'Nirvanawqewqewqeqweqwewqesdadsdqwewqerqwe',
 				image: PlaylistImage,
 				songsCount: 10
 			},

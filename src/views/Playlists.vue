@@ -8,8 +8,10 @@
                     <img :src="playlistImage" alt="">
                 </div>
                 <div class="playlists__playlist-data">
-                    <div class="playlists__playlist-data-title">Playlist: AC/DC</div>
-                    <div class="playlists__playlist-data-group">Nirvana</div>
+                    <div class="playlists__playlist-data-inner">
+                        <div class="playlists__playlist-data-title">Playlist: AC/DC</div>
+                        <div class="playlists__playlist-data-group">Nirvana</div>
+                    </div>
                     <div class="playlists__playlist-data-songs">10 songs</div>
                 </div>
                 <div class="playlists__playlist-delete">
@@ -39,8 +41,15 @@
                         <img src="/images/song-image.jpg" alt="">
                     </div>
                     <div class="playlist__list-item-data">
-                        <div class="playlist__list-item-name">Smells Like Teen Spirit</div>
-                        <div class="playlist__list-item-group">Nirvana</div>
+                        <div class="playlist__list-item-data-inner">
+                            <div class="playlist__list-item-name">Smells Like Teen Spirit</div>
+                            <div class="playlist__list-item-group">
+                                Nirvana
+                                <div class="playlist__list-item-time-mobile">
+                                    3:25
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="playlist__list-item-time">
                         3:25

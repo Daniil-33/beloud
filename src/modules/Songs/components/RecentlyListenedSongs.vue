@@ -1,9 +1,39 @@
 <template>
 	<CardSwiper
-		:items="songs"
-	>
+		:items="sliceSongs"
+		:propsBreakpoints="{
+			280:{
+				slidesPerView: 1
+			},
+			1280: {
+                slidesPerView: 2,
+                spaceBetween: 40
+            }
+		}"
+	>	
 		<template #default="{ item }">
-			<SongCard :cardData="item"></SongCard>
+			<div class="recently-swiper">
+				<div class="playlist__list-item pr" v-for="(item1, index1) in item" :key="item1">
+                    <div class="playlist__list-item-number" :style="`${index1===0?'color: #00E492;':''} ${index1===2?'color: #FE4773;':''}`">{{index1+1}}.</div>
+                    <div class="playlist__list-item-image">
+                        <img src="/images/song-image.jpg" alt="">
+                    </div>
+                    <div class="playlist__list-item-data">
+                        <div class="playlist__list-item-data-inner">
+                            <div class="playlist__list-item-name">Smells Like Teen Spirit</div>
+                            <div class="playlist__list-item-group">
+                                Nirvana
+                                <div class="playlist__list-item-time-mobile">
+                                    3:25
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlist__list-item-time">
+                        3:25
+                    </div>
+                </div>
+			</div>
 		</template>
 	</CardSwiper>
 </template>
@@ -32,52 +62,52 @@ export default {
 		const songs = ref([
 			{
 				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana',
+				author: 'Nirvana',
 				image: '/images/song-image.jpg'
 			},
 			{
 				title: 'Smells Like Teen Spirit',
-				groupName: 'Nirvana 2',
+				author: 'Nirvana 2',
 				image: '/images/song-image.jpg'
 			},
 			{
 				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 3',
+				author: 'Nirvana 3',
 				image: '/images/song-image.jpg'
 			},
 			{
 				title: 'Smells Like Teen Spirit',
-				groupName: 'Nirvana 5',
+				author: 'Nirvana 5',
 				image: '/images/song-image.jpg'
 			},
 			{
 				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 6',
+				author: 'Nirvana 6',
 				image: '/images/song-image.jpg'
 			},
 			{
 				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 7',
+				author: 'Nirvana 7',
 				image: '/images/song-image.jpg'
 			},
 			{
 				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 8',
+				author: 'Nirvana 8',
 				image: '/images/song-image.jpg'
 			},
 			{
 				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 9',
+				author: 'Nirvana 9',
 				image: '/images/song-image.jpg'
 			},
 			{
 				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 4',
+				author: 'Nirvana 4',
 				image: '/images/song-image.jpg'
 			},
 			{
 				title: 'Smells Like Teen Spirit ',
-				groupName: 'Nirvana 4',
+				author: 'Nirvana 4',
 				image: '/images/song-image.jpg'
 			},
 		])
@@ -85,9 +115,20 @@ export default {
 		const {
 			loadingFlags,
 		} = useUserModule()
-
+		
+		function sliceIntoChunks(arr, chunkSize) {
+			const res = [];
+			for (let i = 0; i < arr.length; i += chunkSize) {
+				const chunk = arr.slice(i, i + chunkSize);
+				res.push(chunk);
+			}
+			return res;
+		}
+		let sliceSongs = sliceIntoChunks(songs.value, 3)
+		console.log('sliceSongs', sliceSongs);
 		return {
-			songs
+			songs,
+			sliceSongs
 		};
 	}
 }

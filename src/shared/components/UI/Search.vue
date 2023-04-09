@@ -1,5 +1,5 @@
 <template>
-    <div class="search__wrapper">
+    <div class="search__wrapper p-x">
         <div class="search w-100">
             <v-text-field
                 label="First name"
@@ -32,15 +32,13 @@ export default {
     }
     .search__search-button{
         position:absolute;
-        right:50px;
+        right: 5%;
         top:50%;
         transform: translateY(-50%);
         height: 30px;
         width: 30px;
         cursor:pointer
     }
-    .search__wrapper{
-        padding: 0 150px;
-    }
+ 
     
 </style>

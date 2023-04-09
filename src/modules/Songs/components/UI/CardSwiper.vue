@@ -7,6 +7,7 @@
             :options="swiperOptions"
             :navigation="{prevEl:prevSwiperElement, nextEl:nextSwiperElement}"
             :scrollbar="{dragSize: 60, dragClass:'swiper-scrollbar-drag', draggable:true}"
+            :breakpoints="breakpoints"
         >
             <swiper-slide v-for="(item, index) in items" :key="index">
                 <slot :item="item" :index="index"/>
@@ -43,20 +44,54 @@ export default {
 			required: true,
 			default: () => [],
 		},
+		propsBreakpoints: {
+			type: Object,
+			required: false,
+			default: () => null,
+		},
 	},
 	components:{
 		// SongCard,
 		Swiper,
       	SwiperSlide,
 	},
-	setup() {
+   
+	setup(props) {
 		const prevSwiperElement = ref(null);
     	const nextSwiperElement = ref(null);
-
+        let breakpoints = {
+            // when window width is >= 320px
+            200: {
+                slidesPerView: 1
+            },
+            380: {
+                slidesPerView: 2,
+                spaceBetween: 10
+            },
+            // when window width is >= 480px
+            568: {
+                slidesPerView: 3,
+                spaceBetween: 10
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+            // when window width is >= 640px
+            900: {
+                slidesPerView: 4,
+                spaceBetween: 30
+            },
+            1280: {
+                slidesPerView: 5,
+                spaceBetween: 40
+            }
+        }
 		return {
 			modules: [Scrollbar, Navigation],
 			prevSwiperElement,
 			nextSwiperElement,
+            breakpoints : props.propsBreakpoints ? props.propsBreakpoints : breakpoints
 		}
 	},
 }

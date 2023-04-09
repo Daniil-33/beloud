@@ -13,7 +13,10 @@
 			</div>
 			<div class="song-card__body">
 				<div class="song-card__body-title">
-					{{cardData.title}} wewqewqewqeqweqweqweqwewqrqewewqeqwqe
+					{{cardData.title}}
+					
+					<!-- <marquee-text>
+					</marquee-text> -->
 				</div>
 				<div class="song-card__body-group">{{cardData.author}}</div>
 			</div>
@@ -21,8 +24,12 @@
 	</div>
 </template>
 <script>
+import MarqueeText from 'vue-marquee-text-component'
 export default {
 	name: 'SongCard',
+	components:{
+		MarqueeText
+	},
     props: {
 		cardData: {
 			type: Object,
