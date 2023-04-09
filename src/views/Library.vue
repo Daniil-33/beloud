@@ -40,7 +40,6 @@
 import SongCard from '@/shared/components/UI/SongCard.vue'
 import PlaylistCard from '@/shared/components/UI/PlaylistCard.vue'
 import Search from '@/shared/components/UI/Search.vue'
-import SongImage from '@/assets/images/song-image.jpg'
 import PlaylistImage from '@/assets/images/playlist-image.jpg'
 import { ref } from 'vue'
 export default {
