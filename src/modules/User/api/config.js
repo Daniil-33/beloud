@@ -31,4 +31,12 @@ export default {
 		url: '/user/liked/',
 		method: 'DELETE',
 	},
+	getUserRecentlyListenedAudio: {
+		url: '/user/recently-played/',
+		method: 'GET',
+	},
+	addUserRecentlyListenedAudio: {
+		url: '/user/recently-played/',
+		method: 'POST',
+	},
 }

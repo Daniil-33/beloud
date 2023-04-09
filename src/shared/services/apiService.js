@@ -28,6 +28,7 @@ export default class ApiService {
 			...this.config[endpointName],
 			url: this._generateRequestUrl(endpointName, params),
 			data,
+			params,
 		};
 	}
 

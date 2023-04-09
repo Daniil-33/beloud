@@ -31,26 +31,20 @@ const router = createRouter({
 		},
 		{
 			name: 'Playlists',
-			path: '/playlists',
+			path: '/playlist/:id',
 			component: Playlists,
 		}
 	],
 })
 
-import { useAuthModule } from '@/modules/Auth/'
+// import { useAuthModule } from '@/modules/Auth/'
 
-router.beforeEach(async (to, from) => {
-	const { isAuth } = useAuthModule()
+// router.beforeEach(async (to, from) => {
+// 	const { isAuth } = useAuthModule()
 
-	if (
-	  // make sure the user is authenticated
-	  !isAuth.value &&
-	  // ❗️ Avoid an infinite redirect
-	  to.name !== 'Auth'
-	) {
-	  // redirect the user to the login page
-	  return { name: 'Auth' }
-	}
-  })
+// 	if ( !isAuth.value && to.name !== 'Auth' ) {
+// 	  return { name: 'Auth' }
+// 	}
+//   })
 
 export default router

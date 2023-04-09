@@ -1,5 +1,5 @@
 <template>
-	<v-sheet class="d-flex justify-center p-x">
+	<!-- <v-sheet class="d-flex justify-center p-x">
 		<div class="w-1280-block w-100">
 			<v-btn-toggle v-model="selectedGenre">
 				<v-btn v-for="(item) in genresList" :key="item.value" :value="item.value" class="bg-dark" color="secondary"
@@ -10,7 +10,6 @@
 		</div>
 		<div class="w-1280-none w-100">
 			<v-select
-			
 				v-model="selectedGenre"
 				:items="genresList"
 				item-title="title"
@@ -21,44 +20,44 @@
 				single-line
 			></v-select>
 		</div>
-	</v-sheet>
+	</v-sheet> -->
 	<div class="home__swiper mt-15">
 		<div class="title">
-			Recently
-			<div class="accent-text">Listened</div>
+			Нещодавно
+			<div class="accent-text">Прослухані</div>
 			.
 		</div>
-		<!-- <Swiper :items="songs"></Swiper> -->
-		<RecentlyListened />
+		<RecentlyListenedSongs />
 	</div>
 	<div class="home__swiper mt-15">
 		<div class="title">
-			You may
-			<div class="accent-text">Like</div>
+			Вам може
+			<div class="accent-text">Сподобатись</div>
 			.
 		</div>
 		<MayLikeSongs />
 	</div>
 	<div class="home__swiper mt-15">
 		<div class="title mb-8">
-			Popular
-			<div class="accent-text">Now</div>
+			Популярні
+			<div class="accent-text">Зараз</div>
 			.
 		</div>
 		<PopularNowSongs />
 	</div>
 </template>
 <script>
-import { RecentlyListened, MayLikeSongs, PopularNowSongs } from '@/modules/Songs/'
+import { TopChartSongs, MayLikeSongs, PopularNowSongs, RecentlyListenedSongs } from '@/modules/Songs/'
 
 import { ref } from 'vue'
 
 export default {
 	name: 'HomeView',
 	components: {
-		RecentlyListened,
+		TopChartSongs,
 		MayLikeSongs,
 		PopularNowSongs,
+		RecentlyListenedSongs,
 	},
 	setup() {
 		const genresList = ref([

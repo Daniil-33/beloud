@@ -34,19 +34,31 @@ export const usePlayerStore = defineStore('player', () => {
 	const isPlayerVisible = computed(() => currentSong.value !== null)
 
 	const playSong = (song) => {
+		if (currentAudio.value?.id === song.id) return;
+
 		if (currentAudio.value) {
 			currentAudio.value.pause();
 		}
 
-		window.currentAudio = currentAudio;
 		currentSong.value = song;
 
+		const moveToNextHandler = () => {
+			if (isRepeat.value) {
+				setCurrentTime(0);
+				startSong();
+			} else {
+				moveToNext();
+			}
+		};
+
 		currentAudio.value = createAudio(song.file, {
-			onEnd: () => moveToNext(),
+			onEnd: () => moveToNextHandler(),
 			onReady: () => startSong(),
 			onPause: () => pauseSong(),
 			onPlay: () => startSong()
 		})
+
+		setVolume(volume.value);
 	}
 
 	const setStream = (songs) => {
@@ -123,6 +135,7 @@ export const usePlayerStore = defineStore('player', () => {
 		currentTime,
 		duration,
 		volume,
+		isRepeat,
 
 		playSong,
 		startSong,

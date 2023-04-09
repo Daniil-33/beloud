@@ -207,6 +207,10 @@ body {
 	width: 100%;
 }
 
+.playlist__list-item {
+	cursor: pointer;
+}
+
 .playlist__list-item-number{
 	font-weight: 600;
 	font-size: 32px;
@@ -266,13 +270,60 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	/* border: 1px solid black; */
-	// width: 100%;
+	border: 2px solid transparent;
 	cursor:pointer;
+	position: relative;
+	transition: all 0.1s linear;
+
+	&__active-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+		transition: inherit;
+
+		&-inner {
+			width: 100%;
+			height: 100%;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: inherit;
+
+
+			&:hover {
+				color: rgb(var(--v-theme-accent))
+			}
+		}
+	}
 }
 .song-card__wrapper{
 	width: 100%;
 }
+
+.icon-btn {
+	outline: none;
+	padding: 5px;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.1s linear;
+
+	&:hover,
+	& svg:hover,
+	&.active{
+		color: rgb(var(--v-theme-accent))
+	}
+
+	&.disabled {
+		pointer-events: none;
+		opacity: 0.5;
+	}
+}
+
 .song-card__body{
 	width: 100%;
 }
@@ -316,6 +367,7 @@ body {
 	/* opacity: 0.5; */
 	border: 2px solid rgba(254, 71, 115, 0.5);
 	border-radius: 10px;
+	overflow: hidden;
 }
 .song-card.active .song-card__image-wrapper img, .song-card.active .song-card__body{
 	opacity: 0.5;
@@ -344,14 +396,14 @@ body {
 
 .playlist-card, .song-card *{
 	box-sizing: border-box;
-} 
+}
 .playlist-card {
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	width: 222px;
-	border: 1px solid black;
+	// border: 1px solid black;
 	width: 100%;
 	overflow: hidden;
 }

@@ -39,4 +39,7 @@ export default {
 	getPopularAudio() {
 		return random20Audios()
 	},
+	getTopChartAudio() {
+		return random20Audios().map((item) => ({ ...item, status: (Math.random() > 0.5 ? 'up' : 'down') }))
+	}
 }

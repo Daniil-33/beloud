@@ -14,7 +14,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "DaBaby",
-	  "file": "/music/BONES – Trash (Ft. Xavier Wulf).mp3"
+	  "file": "/beloud/music/BONES – Trash (Ft. Xavier Wulf).mp3"
 	},
 	{
 	  "title": "Trash (feat. Xavier Wulf)",
@@ -31,7 +31,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Waking up Cryin.mp3"
+	  "file": "/beloud/music/BONES – Waking up Cryin.mp3"
 	},
 	{
 	  "title": "WakingUpCrying",
@@ -48,7 +48,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Waking up Cryin.mp3"
+	  "file": "/beloud/music/BONES – Waking up Cryin.mp3"
 	},
 	{
 	  "title": "Dropout!",
@@ -64,7 +64,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$ammy (feat. Uneducated Kid)",
-	  "file": "/music/$ammy – Dropout! (feat. Uneducated Kid).mp3"
+	  "file": "/beloud/music/$ammy – Dropout! (feat. Uneducated Kid).mp3"
 	},
 	{
 	  "title": "GOSHA",
@@ -81,7 +81,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$NOT",
-	  "file": "/music/$NOT – GOSHA.mp3"
+	  "file": "/beloud/music/$NOT – GOSHA.mp3"
 	},
 	{
 	  "title": "$Outh $Ide $Uicide",
@@ -98,7 +98,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – $Outh $Ide $Uicide.mp3"
+	  "file": "/beloud/music/$uicideboy$ – $Outh $Ide $Uicide.mp3"
 	},
 	{
 	  "title": "$Uicidewave",
@@ -115,7 +115,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – $Uicidewave.mp3"
+	  "file": "/beloud/music/$uicideboy$ – $Uicidewave.mp3"
 	},
 	{
 	  "title": "Cold Turkey",
@@ -132,7 +132,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – Cold Turkey.mp3"
+	  "file": "/beloud/music/$uicideboy$ – Cold Turkey.mp3"
 	},
 	{
 	  "title": "Do You Believe in God?",
@@ -149,7 +149,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – Do You Believe in God.mp3"
+	  "file": "/beloud/music/$uicideboy$ – Do You Believe in God.mp3"
 	},
 	{
 	  "title": "Fuck",
@@ -166,7 +166,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – Fuck.mp3"
+	  "file": "/beloud/music/$uicideboy$ – Fuck.mp3"
 	},
 	{
 	  "title": "Kill Yourself (Part III)",
@@ -183,7 +183,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – Kill Yourself (Part III).mp3"
+	  "file": "/beloud/music/$uicideboy$ – Kill Yourself (Part III).mp3"
 	},
 	{
 	  "title": "Krewe Du Vieux (Comedy & Tragedy)",
@@ -200,7 +200,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – Krewe du Vieux (Comedy & Tragedy).mp3"
+	  "file": "/beloud/music/$uicideboy$ – Krewe du Vieux (Comedy & Tragedy).mp3"
 	},
 	{
 	  "title": "Lte",
@@ -217,7 +217,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – Lte.mp3"
+	  "file": "/beloud/music/$uicideboy$ – Lte.mp3"
 	},
 	{
 	  "title": "My Flaws Burn Through My Skin Like Demonic Flames from Hell",
@@ -234,7 +234,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – My Flaws Burn Through My Skin Like Demonic Flames from Hell.mp3"
+	  "file": "/beloud/music/$uicideboy$ – My Flaws Burn Through My Skin Like Demonic Flames from Hell.mp3"
 	},
 	{
 	  "title": "Paris",
@@ -251,7 +251,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – Paris.mp3"
+	  "file": "/beloud/music/$uicideboy$ – Paris.mp3"
 	},
 	{
 	  "title": "T.R.U. (Totally Rotten Underground)",
@@ -268,7 +268,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/$uicideboy$ – T.R.U. (Totally Rotten Underground).mp3"
+	  "file": "/beloud/music/$uicideboy$ – T.R.U. (Totally Rotten Underground).mp3"
 	},
 	{
 	  "title": "Нету интереса",
@@ -285,7 +285,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "10AGE",
-	  "file": "/music/10AGE – Нету интереса.mp3"
+	  "file": "/beloud/music/10AGE – Нету интереса.mp3"
 	},
 	{
 	  "title": "COUNTDOWN",
@@ -302,7 +302,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "1TEAM",
-	  "file": "/music/1TEAM – COUNTDOWN.mp3"
+	  "file": "/beloud/music/1TEAM – COUNTDOWN.mp3"
 	},
 	{
 	  "title": "Bank Account",
@@ -320,7 +320,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "21 Savage",
-	  "file": "/music/21 Savage – Bank Account.mp3"
+	  "file": "/beloud/music/21 Savage – Bank Account.mp3"
 	},
 	{
 	  "title": "Rap Saved Me (feat. Quavo)",
@@ -337,7 +337,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "21 Savage, Offset & Metro Boomin",
-	  "file": "/music/21 Savage, Offset & Metro Boomin – Rap Saved Me (feat. Quavo).mp3"
+	  "file": "/beloud/music/21 Savage, Offset & Metro Boomin – Rap Saved Me (feat. Quavo).mp3"
 	},
 	{
 	  "title": "Dangerous (feat. Caskey)",
@@ -356,7 +356,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "24 Flakko",
-	  "file": "/music/24 Flakko – Dangerous (feat. Caskey).mp3"
+	  "file": "/beloud/music/24 Flakko – Dangerous (feat. Caskey).mp3"
 	},
 	{
 	  "title": "Show Me (feat. WoozieBoo)",
@@ -375,7 +375,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "24 Flakko",
-	  "file": "/music/24 Flakko – Show Me (feat. WoozieBoo).mp3"
+	  "file": "/beloud/music/24 Flakko – Show Me (feat. WoozieBoo).mp3"
 	},
 	{
 	  "title": "Now",
@@ -393,7 +393,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "24 Freaky",
-	  "file": "/music/24 Freaky –  Now.mp3"
+	  "file": "/beloud/music/24 Freaky –  Now.mp3"
 	},
 	{
 	  "title": "Солдат",
@@ -411,7 +411,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "5'nizza",
-	  "file": "/music/5'nizza – Солдат.mp3"
+	  "file": "/beloud/music/5'nizza – Солдат.mp3"
 	},
 	{
 	  "title": "Стрела",
@@ -429,7 +429,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "5'nizza",
-	  "file": "/music/5'nizza – Стрела.mp3"
+	  "file": "/beloud/music/5'nizza – Стрела.mp3"
 	},
 	{
 	  "title": "Ты кидал",
@@ -447,7 +447,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "5'nizza",
-	  "file": "/music/5'nizza – Ты кидал.mp3"
+	  "file": "/beloud/music/5'nizza – Ты кидал.mp3"
 	},
 	{
 	  "title": "EASILY",
@@ -465,7 +465,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "6IXERS & LIL YACHTY",
-	  "file": "/music/6IXERS & LIL YACHTY – EASILY.mp3"
+	  "file": "/beloud/music/6IXERS & LIL YACHTY – EASILY.mp3"
 	},
 	{
 	  "title": "PRBLMS",
@@ -484,7 +484,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "6LACK",
-	  "file": "/music/6LACK – PRBLMS.mp3"
+	  "file": "/beloud/music/6LACK – PRBLMS.mp3"
 	},
 	{
 	  "title": "Tandem",
@@ -501,7 +501,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "7oh2",
-	  "file": "/music/7oh2 – Tandem.mp3"
+	  "file": "/beloud/music/7oh2 – Tandem.mp3"
 	},
 	{
 	  "title": "Overdose",
@@ -519,7 +519,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "8corpses",
-	  "file": "/music/8corpses – Overdose (prod. 3OD).mp3"
+	  "file": "/beloud/music/8corpses – Overdose (prod. 3OD).mp3"
 	},
 	{
 	  "title": "Telephone Calls",
@@ -537,7 +537,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Mob",
-	  "file": "/music/A$AP Mob – Telephone Calls.mp3"
+	  "file": "/beloud/music/A$AP Mob – Telephone Calls.mp3"
 	},
 	{
 	  "title": "Black Tux, White Collar",
@@ -555,7 +555,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Rocky",
-	  "file": "/music/A$AP Rocky – Black Tux, White Collar.mp3"
+	  "file": "/beloud/music/A$AP Rocky – Black Tux, White Collar.mp3"
 	},
 	{
 	  "title": "Brotha Man",
@@ -573,7 +573,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Rocky",
-	  "file": "/music/A$AP Rocky – Brotha Man (feat. French Montana).mp3"
+	  "file": "/beloud/music/A$AP Rocky – Brotha Man (feat. French Montana).mp3"
 	},
 	{
 	  "title": "Distorted Records",
@@ -590,7 +590,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Rocky",
-	  "file": "/music/A$AP Rocky – Distorted Records.mp3"
+	  "file": "/beloud/music/A$AP Rocky – Distorted Records.mp3"
 	},
 	{
 	  "title": "Fukk Sleep",
@@ -609,7 +609,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Rocky",
-	  "file": "/music/A$AP Rocky – Fukk Sleep (feat. FKA twigs).mp3"
+	  "file": "/beloud/music/A$AP Rocky – Fukk Sleep (feat. FKA twigs).mp3"
 	},
 	{
 	  "title": "Gunz N Butter",
@@ -627,7 +627,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Rocky",
-	  "file": "/music/A$AP Rocky – Gunz N Butter (feat. Juicy J).mp3"
+	  "file": "/beloud/music/A$AP Rocky – Gunz N Butter (feat. Juicy J).mp3"
 	},
 	{
 	  "title": "Hun43rd",
@@ -645,7 +645,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Rocky",
-	  "file": "/music/A$AP Rocky – Hun43rd.mp3"
+	  "file": "/beloud/music/A$AP Rocky – Hun43rd.mp3"
 	},
 	{
 	  "title": "Kids Turned Out Fine",
@@ -663,7 +663,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Rocky",
-	  "file": "/music/A$AP Rocky – Kids Turned Out Fine.mp3"
+	  "file": "/beloud/music/A$AP Rocky – Kids Turned Out Fine.mp3"
 	},
 	{
 	  "title": "OG Beeper",
@@ -680,7 +680,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Rocky",
-	  "file": "/music/A$AP Rocky – OG Beeper.mp3"
+	  "file": "/beloud/music/A$AP Rocky – OG Beeper.mp3"
 	},
 	{
 	  "title": "Praise the Lord (Da Shine)",
@@ -697,7 +697,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Rocky",
-	  "file": "/music/A$AP Rocky – Praise the Lord (Da Shine) [feat. Skepta].mp3"
+	  "file": "/beloud/music/A$AP Rocky – Praise the Lord (Da Shine) [feat. Skepta].mp3"
 	},
 	{
 	  "title": "Tony Tone",
@@ -715,7 +715,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "A$AP Rocky",
-	  "file": "/music/A$AP Rocky – Tony Tone.mp3"
+	  "file": "/beloud/music/A$AP Rocky – Tony Tone.mp3"
 	},
 	{
 	  "title": "Highway To Hell",
@@ -730,7 +730,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "AC/DC",
-	  "file": "/music/AC_DC – Highway To Hell.mp3"
+	  "file": "/beloud/music/AC_DC – Highway To Hell.mp3"
 	},
 	{
 	  "title": "Thunderstruck",
@@ -745,7 +745,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "AC/DC",
-	  "file": "/music/AC_DC – Thunderstruck.mp3"
+	  "file": "/beloud/music/AC_DC – Thunderstruck.mp3"
 	},
 	{
 	  "title": "Rolling In The Deep",
@@ -762,7 +762,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Adele",
-	  "file": "/music/Adele – Rolling In The Deep.mp3"
+	  "file": "/beloud/music/Adele – Rolling In The Deep.mp3"
 	},
 	{
 	  "title": "Room Shaker",
@@ -777,7 +777,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ailee",
-	  "file": "/music/Ailee – Room Shaker.mp3"
+	  "file": "/beloud/music/Ailee – Room Shaker.mp3"
 	},
 	{
 	  "title": "Villain",
@@ -792,7 +792,7 @@ export default [
 		"sport"
 	  ],
 	  "author": "AleXa",
-	  "file": "/music/AleXa – Villain.mp3"
+	  "file": "/beloud/music/AleXa – Villain.mp3"
 	},
 	{
 	  "title": "Alice",
@@ -809,7 +809,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Moby",
-	  "file": "/music/Alice Merton – No Roots.mp3"
+	  "file": "/beloud/music/Alice Merton – No Roots.mp3"
 	},
 	{
 	  "title": "Alice",
@@ -826,7 +826,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Moby",
-	  "file": "/music/Alice – Moby.mp3"
+	  "file": "/beloud/music/Alice – Moby.mp3"
 	},
 	{
 	  "title": "Bosorkanya",
@@ -841,7 +841,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Alina Pash",
-	  "file": "/music/Alina Pash – Bosorkanya.mp3"
+	  "file": "/beloud/music/Alina Pash – Bosorkanya.mp3"
 	},
 	{
 	  "title": "Billboard",
@@ -856,7 +856,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Andy Panda, Скриптонит, 104, TumaniYO & MiyaGi",
-	  "file": "/music/Andy Panda, Скриптонит, 104, TumaniYO, MiyaGi – Billboard.mp3"
+	  "file": "/beloud/music/Andy Panda, Скриптонит, 104, TumaniYO, MiyaGi – Billboard.mp3"
 	},
 	{
 	  "title": "Supernova",
@@ -873,7 +873,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ansel Elgort",
-	  "file": "/music/Ansel Elgort – Supernova.mp3"
+	  "file": "/beloud/music/Ansel Elgort – Supernova.mp3"
 	},
 	{
 	  "title": "Downtown",
@@ -891,7 +891,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Apollo 15",
-	  "file": "/music/Apollo 15 – Downtown.mp3"
+	  "file": "/beloud/music/Apollo 15 – Downtown.mp3"
 	},
 	{
 	  "title": "Arabella",
@@ -909,7 +909,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Arctic Monkeys",
-	  "file": "/music/Arctic Monkeys – Arabella.mp3"
+	  "file": "/beloud/music/Arctic Monkeys – Arabella.mp3"
 	},
 	{
 	  "title": "Cigarette Smoke",
@@ -925,7 +925,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Arctic Monkeys",
-	  "file": "/music/Arctic Monkeys – Cigarette Smoke.mp3"
+	  "file": "/beloud/music/Arctic Monkeys – Cigarette Smoke.mp3"
 	},
 	{
 	  "title": "I Wanna Be Yours",
@@ -942,7 +942,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Arctic Monkeys",
-	  "file": "/music/Arctic Monkeys – I Wanna Be Yours.mp3"
+	  "file": "/beloud/music/Arctic Monkeys – I Wanna Be Yours.mp3"
 	},
 	{
 	  "title": "R U Mine?",
@@ -958,7 +958,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Arctic Monkeys",
-	  "file": "/music/Arctic Monkeys – R U Mine.mp3"
+	  "file": "/beloud/music/Arctic Monkeys – R U Mine.mp3"
 	},
 	{
 	  "title": "7 rings",
@@ -977,7 +977,7 @@ export default [
 		"meditation"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – 7 rings.mp3"
+	  "file": "/beloud/music/Ariana Grande – 7 rings.mp3"
 	},
 	{
 	  "title": "bad idea",
@@ -997,7 +997,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – bad idea.mp3"
+	  "file": "/beloud/music/Ariana Grande – bad idea.mp3"
 	},
 	{
 	  "title": "blazed (feat. Pharrell Williams)",
@@ -1015,7 +1015,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – blazed (feat. Pharrell Williams).mp3"
+	  "file": "/beloud/music/Ariana Grande – blazed (feat. Pharrell Williams).mp3"
 	},
 	{
 	  "title": "bloodline",
@@ -1035,7 +1035,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – bloodline.mp3"
+	  "file": "/beloud/music/Ariana Grande – bloodline.mp3"
 	},
 	{
 	  "title": "borderline (feat. Missy Elliott)",
@@ -1054,7 +1054,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – borderline (feat. Missy Elliott).mp3"
+	  "file": "/beloud/music/Ariana Grande – borderline (feat. Missy Elliott).mp3"
 	},
 	{
 	  "title": "break up with your girlfriend, i'm bored",
@@ -1072,7 +1072,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – break up with your girlfriend, i'm bored.mp3"
+	  "file": "/beloud/music/Ariana Grande – break up with your girlfriend, i'm bored.mp3"
 	},
 	{
 	  "title": "breathin",
@@ -1092,7 +1092,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – breathin.mp3"
+	  "file": "/beloud/music/Ariana Grande – breathin.mp3"
 	},
 	{
 	  "title": "Dangerous Woman",
@@ -1110,7 +1110,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – Dangerous Woman.mp3"
+	  "file": "/beloud/music/Ariana Grande – Dangerous Woman.mp3"
 	},
 	{
 	  "title": "everytime",
@@ -1130,7 +1130,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – everytime.mp3"
+	  "file": "/beloud/music/Ariana Grande – everytime.mp3"
 	},
 	{
 	  "title": "fake smile",
@@ -1150,7 +1150,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – fake smile.mp3"
+	  "file": "/beloud/music/Ariana Grande – fake smile.mp3"
 	},
 	{
 	  "title": "get well soon",
@@ -1170,7 +1170,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – get well soon.mp3"
+	  "file": "/beloud/music/Ariana Grande – get well soon.mp3"
 	},
 	{
 	  "title": "God is a woman",
@@ -1190,7 +1190,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – God is a woman.mp3"
+	  "file": "/beloud/music/Ariana Grande – God is a woman.mp3"
 	},
 	{
 	  "title": "imagine",
@@ -1210,7 +1210,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – imagine.mp3"
+	  "file": "/beloud/music/Ariana Grande – imagine.mp3"
 	},
 	{
 	  "title": "in my head",
@@ -1230,7 +1230,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – in my head.mp3"
+	  "file": "/beloud/music/Ariana Grande – in my head.mp3"
 	},
 	{
 	  "title": "make up",
@@ -1249,7 +1249,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – make up.mp3"
+	  "file": "/beloud/music/Ariana Grande – make up.mp3"
 	},
 	{
 	  "title": "NASA",
@@ -1269,7 +1269,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – NASA.mp3"
+	  "file": "/beloud/music/Ariana Grande – NASA.mp3"
 	},
 	{
 	  "title": "needy",
@@ -1289,7 +1289,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – needy.mp3"
+	  "file": "/beloud/music/Ariana Grande – needy.mp3"
 	},
 	{
 	  "title": "no tears left to cry",
@@ -1309,7 +1309,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – no tears left to cry.mp3"
+	  "file": "/beloud/music/Ariana Grande – no tears left to cry.mp3"
 	},
 	{
 	  "title": "pete davidson",
@@ -1329,7 +1329,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – pete davidson.mp3"
+	  "file": "/beloud/music/Ariana Grande – pete davidson.mp3"
 	},
 	{
 	  "title": "R.E.M",
@@ -1349,7 +1349,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – R.E.M.mp3"
+	  "file": "/beloud/music/Ariana Grande – R.E.M.mp3"
 	},
 	{
 	  "title": "sweetener",
@@ -1369,7 +1369,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – sweetener.mp3"
+	  "file": "/beloud/music/Ariana Grande – sweetener.mp3"
 	},
 	{
 	  "title": "thank u, next",
@@ -1389,7 +1389,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – thank u, next.mp3"
+	  "file": "/beloud/music/Ariana Grande – thank u, next.mp3"
 	},
 	{
 	  "title": "the light is coming (feat. Nicki Minaj)",
@@ -1407,7 +1407,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/Ariana Grande – the light is coming (feat. Nicki Minaj).mp3"
+	  "file": "/beloud/music/Ariana Grande – the light is coming (feat. Nicki Minaj).mp3"
 	},
 	{
 	  "title": "Te Molla (feat. Killua)",
@@ -1423,7 +1423,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Arnon",
-	  "file": "/music/Arnon – Te Molla (feat. Killua).mp3"
+	  "file": "/beloud/music/Arnon – Te Molla (feat. Killua).mp3"
 	},
 	{
 	  "title": "Why’d You Only Call Me When You’re High",
@@ -1440,7 +1440,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Arctic Monkeys",
-	  "file": "/music/Artic Monkeys – Why’d You Only Call Me When You’re High.mp3"
+	  "file": "/beloud/music/Artic Monkeys – Why’d You Only Call Me When You’re High.mp3"
 	},
 	{
 	  "title": "Slumber Party (feat. Princess Nokia)",
@@ -1457,7 +1457,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ashnikko",
-	  "file": "/music/Ashnikko – Slumber Party (feat. Princess Nokia).mp3"
+	  "file": "/beloud/music/Ashnikko – Slumber Party (feat. Princess Nokia).mp3"
 	},
 	{
 	  "title": "Run",
@@ -1472,7 +1472,7 @@ export default [
 		"sport"
 	  ],
 	  "author": "AWOLNATION",
-	  "file": "/music/AWOLNATION – Run.mp3"
+	  "file": "/beloud/music/AWOLNATION – Run.mp3"
 	},
 	{
 	  "title": "Adderall",
@@ -1488,7 +1488,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Aywy & EphRem",
-	  "file": "/music/Aywy. & EphRem – Adderall.mp3"
+	  "file": "/beloud/music/Aywy. & EphRem – Adderall.mp3"
 	},
 	{
 	  "title": "No Guidance",
@@ -1505,7 +1505,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ayzha Nyree",
-	  "file": "/music/Ayzha Nyree – No Guidance.mp3"
+	  "file": "/beloud/music/Ayzha Nyree – No Guidance.mp3"
 	},
 	{
 	  "title": "No Problems",
@@ -1521,7 +1521,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Azealia Banks",
-	  "file": "/music/Azealia Banks – No Problems (prod. by Machinedrum).mp3"
+	  "file": "/beloud/music/Azealia Banks – No Problems (prod. by Machinedrum).mp3"
 	},
 	{
 	  "title": "U.S.S 1 (Propane)",
@@ -1538,7 +1538,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Azide, J Swey & Love Kalmar",
-	  "file": "/music/Azide x J Swey x Love Kalmar – U.S.S 1 (Propane).mp3"
+	  "file": "/beloud/music/Azide x J Swey x Love Kalmar – U.S.S 1 (Propane).mp3"
 	},
 	{
 	  "title": "YAMAZAKI",
@@ -1555,7 +1555,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BANG YONGGUK",
-	  "file": "/music/Bang Yongguk – YAMAZAKI.mp3"
+	  "file": "/beloud/music/Bang Yongguk – YAMAZAKI.mp3"
 	},
 	{
 	  "title": "Home",
@@ -1572,7 +1572,7 @@ export default [
 		"meditation"
 	  ],
 	  "author": "Bearcubs",
-	  "file": "/music/Bearcubs – Home.mp3"
+	  "file": "/beloud/music/Bearcubs – Home.mp3"
 	},
 	{
 	  "title": "Becomes The Color",
@@ -1589,7 +1589,7 @@ export default [
 		"meditation"
 	  ],
 	  "author": "Emily Wells",
-	  "file": "/music/Becomes The Color – Emily Wells.mp3"
+	  "file": "/beloud/music/Becomes The Color – Emily Wells.mp3"
 	},
 	{
 	  "title": "Might Not (feat. The Weeknd)",
@@ -1605,7 +1605,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Belly",
-	  "file": "/music/Belly – Might Not (feat. The Weeknd).mp3"
+	  "file": "/beloud/music/Belly – Might Not (feat. The Weeknd).mp3"
 	},
 	{
 	  "title": "Yonce",
@@ -1621,7 +1621,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Beyonce",
-	  "file": "/music/Beyonce – Yonce.mp3"
+	  "file": "/beloud/music/Beyonce – Yonce.mp3"
 	},
 	{
 	  "title": "Geek'd",
@@ -1638,7 +1638,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Bhad Bhabie",
-	  "file": "/music/Bhad Bhabie – Geek'd.mp3"
+	  "file": "/beloud/music/Bhad Bhabie – Geek'd.mp3"
 	},
 	{
 	  "title": "Gucci Flip Flops",
@@ -1655,7 +1655,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Bhad Bhabie",
-	  "file": "/music/Bhad Bhabie – Gucci Flip Flops (feat. Lil Yachty).mp3"
+	  "file": "/beloud/music/Bhad Bhabie – Gucci Flip Flops (feat. Lil Yachty).mp3"
 	},
 	{
 	  "title": "Low",
@@ -1672,7 +1672,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Flo Rida",
-	  "file": "/music/Big Baby Tape, kizaru – 99 Problems  (slowed & reverb).mp3"
+	  "file": "/beloud/music/Big Baby Tape, kizaru – 99 Problems  (slowed & reverb).mp3"
 	},
 	{
 	  "title": "Man Don't Dance",
@@ -1688,7 +1688,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Big Shaq",
-	  "file": "/music/Big Shaq – Man Don't Dance.mp3"
+	  "file": "/beloud/music/Big Shaq – Man Don't Dance.mp3"
 	},
 	{
 	  "title": "Creepin N Lurkin",
@@ -1705,7 +1705,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BILL $ABER",
-	  "file": "/music/BILL $ABER – Creepin N Lurkin.mp3"
+	  "file": "/beloud/music/BILL $ABER – Creepin N Lurkin.mp3"
 	},
 	{
 	  "title": "all the good girls go to hell",
@@ -1723,7 +1723,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – all the good girls go to hell.mp3"
+	  "file": "/beloud/music/Billie Eilish – all the good girls go to hell.mp3"
 	},
 	{
 	  "title": "bad guy",
@@ -1741,7 +1741,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – bad guy.mp3"
+	  "file": "/beloud/music/Billie Eilish – bad guy.mp3"
 	},
 	{
 	  "title": "bitches broken hearts",
@@ -1759,7 +1759,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – Bitches Broken Hearts.mp3"
+	  "file": "/beloud/music/Billie Eilish – Bitches Broken Hearts.mp3"
 	},
 	{
 	  "title": "Bored",
@@ -1777,7 +1777,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – Bored.mp3"
+	  "file": "/beloud/music/Billie Eilish – Bored.mp3"
 	},
 	{
 	  "title": "Bury A Friend",
@@ -1795,7 +1795,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – Bury A Friend.mp3"
+	  "file": "/beloud/music/Billie Eilish – Bury A Friend.mp3"
 	},
 	{
 	  "title": "COPYCAT",
@@ -1811,7 +1811,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – COPYCAT.mp3"
+	  "file": "/beloud/music/Billie Eilish – COPYCAT.mp3"
 	},
 	{
 	  "title": "idontwannabeyouanymore",
@@ -1829,7 +1829,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – idontwannabeyouanymore.mp3"
+	  "file": "/beloud/music/Billie Eilish – idontwannabeyouanymore.mp3"
 	},
 	{
 	  "title": "ilomilo",
@@ -1847,7 +1847,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – ilomilo.mp3"
+	  "file": "/beloud/music/Billie Eilish – ilomilo.mp3"
 	},
 	{
 	  "title": "my boy",
@@ -1865,7 +1865,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – my boy.mp3"
+	  "file": "/beloud/music/Billie Eilish – my boy.mp3"
 	},
 	{
 	  "title": "Six Feet Under",
@@ -1883,7 +1883,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – Six Feet Under.mp3"
+	  "file": "/beloud/music/Billie Eilish – Six Feet Under.mp3"
 	},
 	{
 	  "title": "watch",
@@ -1901,7 +1901,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – watch.mp3"
+	  "file": "/beloud/music/Billie Eilish – watch.mp3"
 	},
 	{
 	  "title": "when the party's over",
@@ -1919,7 +1919,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – when the party's over.mp3"
+	  "file": "/beloud/music/Billie Eilish – when the party's over.mp3"
 	},
 	{
 	  "title": "wish you were gay",
@@ -1937,7 +1937,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – wish you were gay.mp3"
+	  "file": "/beloud/music/Billie Eilish – wish you were gay.mp3"
 	},
 	{
 	  "title": "you should see me in a crown",
@@ -1953,7 +1953,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Billie Eilish",
-	  "file": "/music/Billie Eilish – you should see me in a crown.mp3"
+	  "file": "/beloud/music/Billie Eilish – you should see me in a crown.mp3"
 	},
 	{
 	  "title": "Lte",
@@ -1970,7 +1970,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "$uicideboy$",
-	  "file": "/music/Birdy – Shelter (Clark Kent Remix).mp3"
+	  "file": "/beloud/music/Birdy – Shelter (Clark Kent Remix).mp3"
 	},
 	{
 	  "title": "Beat The Devil's Tattoo",
@@ -1988,7 +1988,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Black Rebel Motorcycle Club",
-	  "file": "/music/Black Rebel Motorcycle Club – Beat The Devil's Tattoo.mp3"
+	  "file": "/beloud/music/Black Rebel Motorcycle Club – Beat The Devil's Tattoo.mp3"
 	},
 	{
 	  "title": "Do Re Mi (feat. Gucci Mane)",
@@ -2004,7 +2004,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Blackbear",
-	  "file": "/music/Blackbear – Do Re Mi (feat. Gucci Mane).mp3"
+	  "file": "/beloud/music/Blackbear – Do Re Mi (feat. Gucci Mane).mp3"
 	},
 	{
 	  "title": "Look Alive (feat. Drake)",
@@ -2023,7 +2023,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BlocBoy JB",
-	  "file": "/music/BlocBoy JB – Look Alive (feat. Drake).mp3"
+	  "file": "/beloud/music/BlocBoy JB – Look Alive (feat. Drake).mp3"
 	},
 	{
 	  "title": "Bonfires",
@@ -2039,7 +2039,7 @@ export default [
 		"sport"
 	  ],
 	  "author": "Blue Foundation",
-	  "file": "/music/Blue Foundation – Bonfires.mp3"
+	  "file": "/beloud/music/Blue Foundation – Bonfires.mp3"
 	},
 	{
 	  "title": "Eyes On Fire",
@@ -2056,7 +2056,7 @@ export default [
 		"meditation"
 	  ],
 	  "author": "Blue Foundation",
-	  "file": "/music/Blue Foundation – Eyes On Fire.mp3"
+	  "file": "/beloud/music/Blue Foundation – Eyes On Fire.mp3"
 	},
 	{
 	  "title": "LooseScrew",
@@ -2074,7 +2074,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES & Eddy Baker",
-	  "file": "/music/Bones & Eddy Baker – LooseScrew.mp3"
+	  "file": "/beloud/music/Bones & Eddy Baker – LooseScrew.mp3"
 	},
 	{
 	  "title": ".Exe",
@@ -2092,7 +2092,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – .Exe.mp3"
+	  "file": "/beloud/music/BONES – .Exe.mp3"
 	},
 	{
 	  "title": "42Carats",
@@ -2110,7 +2110,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – 42Carats.mp3"
+	  "file": "/beloud/music/BONES – 42Carats.mp3"
 	},
 	{
 	  "title": "AvrilWasRightEverythingIsSoComplicated",
@@ -2128,7 +2128,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – AvrilWasRightEverythingIsSoComplicated.mp3"
+	  "file": "/beloud/music/BONES – AvrilWasRightEverythingIsSoComplicated.mp3"
 	},
 	{
 	  "title": "Biodegradable",
@@ -2147,7 +2147,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Biodegradable.mp3"
+	  "file": "/beloud/music/BONES – Biodegradable.mp3"
 	},
 	{
 	  "title": "BlackMold",
@@ -2165,7 +2165,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Blackmold.mp3"
+	  "file": "/beloud/music/BONES – Blackmold.mp3"
 	},
 	{
 	  "title": "Bleach",
@@ -2184,7 +2184,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Bleach.mp3"
+	  "file": "/beloud/music/BONES – Bleach.mp3"
 	},
 	{
 	  "title": "BringMeToLife",
@@ -2202,7 +2202,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – BringMeToLife.mp3"
+	  "file": "/beloud/music/BONES – BringMeToLife.mp3"
 	},
 	{
 	  "title": "Butterfly",
@@ -2220,7 +2220,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Butterfly.mp3"
+	  "file": "/beloud/music/BONES – Butterfly.mp3"
 	},
 	{
 	  "title": "Calcium",
@@ -2239,7 +2239,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Calcium.mp3"
+	  "file": "/beloud/music/BONES – Calcium.mp3"
 	},
 	{
 	  "title": "Chlorella",
@@ -2258,7 +2258,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Chlorella.mp3"
+	  "file": "/beloud/music/BONES – Chlorella.mp3"
 	},
 	{
 	  "title": "ConnectionLost",
@@ -2277,7 +2277,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – ConnectionLost.mp3"
+	  "file": "/beloud/music/BONES – ConnectionLost.mp3"
 	},
 	{
 	  "title": "Corduroy",
@@ -2295,7 +2295,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Corduroy.mp3"
+	  "file": "/beloud/music/BONES – Corduroy.mp3"
 	},
 	{
 	  "title": "CtrlAltDelete",
@@ -2313,7 +2313,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – CtrlAltDelete.mp3"
+	  "file": "/beloud/music/BONES – CtrlAltDelete.mp3"
 	},
 	{
 	  "title": "CutToTheChase",
@@ -2329,7 +2329,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – CutToTheChase.mp3"
+	  "file": "/beloud/music/BONES – CutToTheChase.mp3"
 	},
 	{
 	  "title": "DeadBoy",
@@ -2348,7 +2348,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – DeadBoy.mp3"
+	  "file": "/beloud/music/BONES – DeadBoy.mp3"
 	},
 	{
 	  "title": "DeadInDesignerClothes",
@@ -2367,7 +2367,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – DeadInDesignerClothes.mp3"
+	  "file": "/beloud/music/BONES – DeadInDesignerClothes.mp3"
 	},
 	{
 	  "title": "DeadPixel",
@@ -2385,7 +2385,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – DeadPixel.mp3"
+	  "file": "/beloud/music/BONES – DeadPixel.mp3"
 	},
 	{
 	  "title": "Dirt",
@@ -2403,7 +2403,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Dirt.mp3"
+	  "file": "/beloud/music/BONES – Dirt.mp3"
 	},
 	{
 	  "title": "EmilioEstevez,TheMightyDuckMan",
@@ -2422,7 +2422,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – EmilioEstevez,TheMightyDuckMan.mp3"
+	  "file": "/beloud/music/BONES – EmilioEstevez,TheMightyDuckMan.mp3"
 	},
 	{
 	  "title": "ExoticBambooFlooring",
@@ -2438,7 +2438,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – ExoticBambooFlooring.mp3"
+	  "file": "/beloud/music/BONES – ExoticBambooFlooring.mp3"
 	},
 	{
 	  "title": "Flow",
@@ -2454,7 +2454,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Flow.mp3"
+	  "file": "/beloud/music/BONES – Flow.mp3"
 	},
 	{
 	  "title": "GladWeHaveAnUnderstanding",
@@ -2470,7 +2470,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – GladWeHaveAnUnderstanding.mp3"
+	  "file": "/beloud/music/BONES – GladWeHaveAnUnderstanding.mp3"
 	},
 	{
 	  "title": "GraveyardGod",
@@ -2489,7 +2489,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – GraveyardGod.mp3"
+	  "file": "/beloud/music/BONES – GraveyardGod.mp3"
 	},
 	{
 	  "title": "HDMI",
@@ -2505,7 +2505,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – HDMI.mp3"
+	  "file": "/beloud/music/BONES – HDMI.mp3"
 	},
 	{
 	  "title": "IThinkThereIsSomethingInTheRadiator",
@@ -2523,7 +2523,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – IThinkThereIsSomethingInTheRadiator.mp3"
+	  "file": "/beloud/music/BONES – IThinkThereIsSomethingInTheRadiator.mp3"
 	},
 	{
 	  "title": "IWillBreatheIntoYou",
@@ -2542,7 +2542,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – IWillBreatheIntoYou.mp3"
+	  "file": "/beloud/music/BONES – IWillBreatheIntoYou.mp3"
 	},
 	{
 	  "title": "KeepTellingYourselfThat",
@@ -2560,7 +2560,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – KeepTellingYourselfThat.mp3"
+	  "file": "/beloud/music/BONES – KeepTellingYourselfThat.mp3"
 	},
 	{
 	  "title": "Klebold",
@@ -2576,7 +2576,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Klebold.mp3"
+	  "file": "/beloud/music/BONES – Klebold.mp3"
 	},
 	{
 	  "title": "Lightning",
@@ -2594,7 +2594,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Lightning.mp3"
+	  "file": "/beloud/music/BONES – Lightning.mp3"
 	},
 	{
 	  "title": "MarbleFloors",
@@ -2612,7 +2612,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – MarbleFloors.mp3"
+	  "file": "/beloud/music/BONES – MarbleFloors.mp3"
 	},
 	{
 	  "title": "MustBeARealDragWakingUpAndBeingYou",
@@ -2630,7 +2630,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – MustBeARealDragWakingUpAndBeingYou.mp3"
+	  "file": "/beloud/music/BONES – MustBeARealDragWakingUpAndBeingYou.mp3"
 	},
 	{
 	  "title": "Owen",
@@ -2648,7 +2648,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Owen.mp3"
+	  "file": "/beloud/music/BONES – Owen.mp3"
 	},
 	{
 	  "title": "Oxygen",
@@ -2664,7 +2664,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Oxygen.mp3"
+	  "file": "/beloud/music/BONES – Oxygen.mp3"
 	},
 	{
 	  "title": "PixelatedTears",
@@ -2682,7 +2682,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – PixelatedTears.mp3"
+	  "file": "/beloud/music/BONES – PixelatedTears.mp3"
 	},
 	{
 	  "title": "Protein",
@@ -2700,7 +2700,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Protein.mp3"
+	  "file": "/beloud/music/BONES – Protein.mp3"
 	},
 	{
 	  "title": "Rap",
@@ -2719,7 +2719,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Rap.mp3"
+	  "file": "/beloud/music/BONES – Rap.mp3"
 	},
 	{
 	  "title": "RestInPeace",
@@ -2735,7 +2735,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – RestInPeace (Prod. by The Virus And Antidote).mp3"
+	  "file": "/beloud/music/BONES – RestInPeace (Prod. by The Virus And Antidote).mp3"
 	},
 	{
 	  "title": "ReturnOfThePimp",
@@ -2754,7 +2754,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – ReturnOfThePimp.mp3"
+	  "file": "/beloud/music/BONES – ReturnOfThePimp.mp3"
 	},
 	{
 	  "title": "Ribs",
@@ -2773,7 +2773,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Ribs.mp3"
+	  "file": "/beloud/music/BONES – Ribs.mp3"
 	},
 	{
 	  "title": "Roaming",
@@ -2791,7 +2791,7 @@ export default [
 		"meditation"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Roaming.mp3"
+	  "file": "/beloud/music/BONES – Roaming.mp3"
 	},
 	{
 	  "title": "Rocks",
@@ -2809,7 +2809,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Rocks.mp3"
+	  "file": "/beloud/music/BONES – Rocks.mp3"
 	},
 	{
 	  "title": "Sanctuary",
@@ -2827,7 +2827,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Sanctuary.mp3"
+	  "file": "/beloud/music/BONES – Sanctuary.mp3"
 	},
 	{
 	  "title": "ShameOnMe",
@@ -2844,7 +2844,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – ShameOnMe.mp3"
+	  "file": "/beloud/music/BONES – ShameOnMe.mp3"
 	},
 	{
 	  "title": "Sixteen",
@@ -2860,7 +2860,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Sixteen.mp3"
+	  "file": "/beloud/music/BONES – Sixteen.mp3"
 	},
 	{
 	  "title": "Sodium",
@@ -2878,7 +2878,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Sodium.mp3"
+	  "file": "/beloud/music/BONES – Sodium.mp3"
 	},
 	{
 	  "title": "Soil",
@@ -2896,7 +2896,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Soil.mp3"
+	  "file": "/beloud/music/BONES – Soil.mp3"
 	},
 	{
 	  "title": "Sterilized",
@@ -2914,7 +2914,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Sterilized.mp3"
+	  "file": "/beloud/music/BONES – Sterilized.mp3"
 	},
 	{
 	  "title": "SunnyDay",
@@ -2931,7 +2931,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – SunnyDay.mp3"
+	  "file": "/beloud/music/BONES – SunnyDay.mp3"
 	},
 	{
 	  "title": "SystemPreferences",
@@ -2947,7 +2947,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – SystemPreferences.mp3"
+	  "file": "/beloud/music/BONES – SystemPreferences.mp3"
 	},
 	{
 	  "title": "TakingOutTheTrash",
@@ -2964,7 +2964,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – TakingOutTheTrash.mp3"
+	  "file": "/beloud/music/BONES – TakingOutTheTrash.mp3"
 	},
 	{
 	  "title": "Tempo",
@@ -2981,7 +2981,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Tempo.mp3"
+	  "file": "/beloud/music/BONES – Tempo.mp3"
 	},
 	{
 	  "title": "TheDayYouLeaveThisPlanetNobodyWillNotice",
@@ -2998,7 +2998,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – TheDayYouLeaveThisPlanetNobodyWillNotice.mp3"
+	  "file": "/beloud/music/BONES – TheDayYouLeaveThisPlanetNobodyWillNotice.mp3"
 	},
 	{
 	  "title": "TheHandOfTheWitch",
@@ -3016,7 +3016,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – TheHandOfTheWitch.mp3"
+	  "file": "/beloud/music/BONES – TheHandOfTheWitch.mp3"
 	},
 	{
 	  "title": "TheHealingFields",
@@ -3035,7 +3035,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – TheHealingFields.mp3"
+	  "file": "/beloud/music/BONES – TheHealingFields.mp3"
 	},
 	{
 	  "title": "Thunder",
@@ -3053,7 +3053,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Thunder.mp3"
+	  "file": "/beloud/music/BONES – Thunder.mp3"
 	},
 	{
 	  "title": "Timberlake (slowed & reverb)",
@@ -3070,7 +3070,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Timberlake (slowed & reverb).mp3"
+	  "file": "/beloud/music/BONES – Timberlake (slowed & reverb).mp3"
 	},
 	{
 	  "title": "Timberlake",
@@ -3087,7 +3087,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Timberlake ft Juicy J slowed.mp3"
+	  "file": "/beloud/music/BONES – Timberlake ft Juicy J slowed.mp3"
 	},
 	{
 	  "title": "Timeless",
@@ -3106,7 +3106,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Timeless.mp3"
+	  "file": "/beloud/music/BONES – Timeless.mp3"
 	},
 	{
 	  "title": "Virus",
@@ -3123,7 +3123,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Virus.mp3"
+	  "file": "/beloud/music/BONES – Virus.mp3"
 	},
 	{
 	  "title": "Water",
@@ -3141,7 +3141,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Water.mp3"
+	  "file": "/beloud/music/BONES – Water.mp3"
 	},
 	{
 	  "title": "WhatWasThat?",
@@ -3159,7 +3159,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – WhatWasThat.mp3"
+	  "file": "/beloud/music/BONES – WhatWasThat.mp3"
 	},
 	{
 	  "title": "R.E.M",
@@ -3179,7 +3179,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ariana Grande",
-	  "file": "/music/BONES – WhereTheTreesMeetTheFreeway.mp3"
+	  "file": "/beloud/music/BONES – WhereTheTreesMeetTheFreeway.mp3"
 	},
 	{
 	  "title": "Wi-Fi",
@@ -3196,7 +3196,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/BONES – Wi-Fi.mp3"
+	  "file": "/beloud/music/BONES – Wi-Fi.mp3"
 	},
 	{
 	  "title": "Now",
@@ -3214,7 +3214,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "24 Freaky",
-	  "file": "/music/BONES – YouMadeYourBed,NowLieInIt.mp3"
+	  "file": "/beloud/music/BONES – YouMadeYourBed,NowLieInIt.mp3"
 	},
 	{
 	  "title": "Twerk It Like Miley",
@@ -3230,7 +3230,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Brandon Beal",
-	  "file": "/music/Brandon Beal – Twerk It Like Miley.mp3"
+	  "file": "/beloud/music/Brandon Beal – Twerk It Like Miley.mp3"
 	},
 	{
 	  "title": "Now",
@@ -3248,7 +3248,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "24 Freaky",
-	  "file": "/music/Brennan Savage – Look At Me Now.mp3"
+	  "file": "/beloud/music/Brennan Savage – Look At Me Now.mp3"
 	},
 	{
 	  "title": "Abortos Para Todos",
@@ -3267,7 +3267,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Bruxa",
-	  "file": "/music/Bruxa – Abortos Para Todos.mp3"
+	  "file": "/beloud/music/Bruxa – Abortos Para Todos.mp3"
 	},
 	{
 	  "title": "Тлеет",
@@ -3284,7 +3284,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BULA",
-	  "file": "/music/BULA – Тлеет.mp3"
+	  "file": "/beloud/music/BULA – Тлеет.mp3"
 	},
 	{
 	  "title": "Tuesday (feat. Danelle Sandoval)",
@@ -3301,7 +3301,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Burak Yeter",
-	  "file": "/music/Burak Yeter – Tuesday (feat. Danelle Sandoval).mp3"
+	  "file": "/beloud/music/Burak Yeter – Tuesday (feat. Danelle Sandoval).mp3"
 	},
 	{
 	  "title": "My Oh My",
@@ -3317,7 +3317,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Camila Cabello",
-	  "file": "/music/Camila Cabello – My Oh My (feat. DaBaby).mp3"
+	  "file": "/beloud/music/Camila Cabello – My Oh My (feat. DaBaby).mp3"
 	},
 	{
 	  "title": "OMG",
@@ -3333,7 +3333,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Camila Cabello",
-	  "file": "/music/Camila Cabello – OMG.mp3"
+	  "file": "/beloud/music/Camila Cabello – OMG.mp3"
 	},
 	{
 	  "title": "Bodak Yellow",
@@ -3350,7 +3350,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Cardi B",
-	  "file": "/music/Cardi B – Bodak Yellow.mp3"
+	  "file": "/beloud/music/Cardi B – Bodak Yellow.mp3"
 	},
 	{
 	  "title": "Money",
@@ -3367,7 +3367,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Cardi B",
-	  "file": "/music/Cardi B – Money.mp3"
+	  "file": "/beloud/music/Cardi B – Money.mp3"
 	},
 	{
 	  "title": "WAP (slowed & reverb)",
@@ -3383,7 +3383,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Cardi B",
-	  "file": "/music/Cardi B – WAP (slowed & reverb).mp3"
+	  "file": "/beloud/music/Cardi B – WAP (slowed & reverb).mp3"
 	},
 	{
 	  "title": "Okay",
@@ -3399,7 +3399,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Chase Atlantic",
-	  "file": "/music/Chase Atlantic – Okay.mp3"
+	  "file": "/beloud/music/Chase Atlantic – Okay.mp3"
 	},
 	{
 	  "title": "Gold",
@@ -3416,7 +3416,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Chet Faker",
-	  "file": "/music/Chet Faker – Gold.mp3"
+	  "file": "/beloud/music/Chet Faker – Gold.mp3"
 	},
 	{
 	  "title": "Loyal",
@@ -3434,7 +3434,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Chris Brown (feat. Lil' Wayne, Tyga)",
-	  "file": "/music/Chris Brown – Loyal (feat. Lil' Wayne, Tyga).mp3"
+	  "file": "/beloud/music/Chris Brown – Loyal (feat. Lil' Wayne, Tyga).mp3"
 	},
 	{
 	  "title": "Hello Bitches",
@@ -3450,7 +3450,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "CL",
-	  "file": "/music/CL - Hello Bitches.mp3"
+	  "file": "/beloud/music/CL - Hello Bitches.mp3"
 	},
 	{
 	  "title": "Дай мне пять (feat. Mozee Montana)",
@@ -3466,7 +3466,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "CMH",
-	  "file": "/music/CMH – Дай мне пять (feat. Mozee Montana).mp3"
+	  "file": "/beloud/music/CMH – Дай мне пять (feat. Mozee Montana).mp3"
 	},
 	{
 	  "title": "Smokey Taboo",
@@ -3485,7 +3485,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "CocoRosie",
-	  "file": "/music/CocoRosie – Smokey Taboo.mp3"
+	  "file": "/beloud/music/CocoRosie – Smokey Taboo.mp3"
 	},
 	{
 	  "title": "Wicked Games (Dub Head Cover Remix)",
@@ -3502,7 +3502,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Coeur de Pirate",
-	  "file": "/music/Coeur de Pirate – Wicked Games (Dub Head Cover Remix).mp3"
+	  "file": "/beloud/music/Coeur de Pirate – Wicked Games (Dub Head Cover Remix).mp3"
 	},
 	{
 	  "title": "Ghost",
@@ -3519,7 +3519,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Confetti",
-	  "file": "/music/Confetti – Ghost.mp3"
+	  "file": "/beloud/music/Confetti – Ghost.mp3"
 	},
 	{
 	  "title": "Pipe Down!",
@@ -3536,7 +3536,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Coogie",
-	  "file": "/music/Coogie – Pipe Down!.mp3"
+	  "file": "/beloud/music/Coogie – Pipe Down!.mp3"
 	},
 	{
 	  "title": "Bubble Trouble",
@@ -3553,7 +3553,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Cookie Monsta",
-	  "file": "/music/Cookie Monsta – Bubble Trouble.mp3"
+	  "file": "/beloud/music/Cookie Monsta – Bubble Trouble.mp3"
 	},
 	{
 	  "title": "Ginger Pubes",
@@ -3570,7 +3570,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Cookie Monsta",
-	  "file": "/music/Cookie Monsta – Ginger Pubes.mp3"
+	  "file": "/beloud/music/Cookie Monsta – Ginger Pubes.mp3"
 	},
 	{
 	  "title": "You Can Do It",
@@ -3587,7 +3587,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Cookie Monsta",
-	  "file": "/music/Cookie Monsta – You Can Do It.mp3"
+	  "file": "/beloud/music/Cookie Monsta – You Can Do It.mp3"
 	},
 	{
 	  "title": "Hot Demon Bitches Near U!!!",
@@ -3603,7 +3603,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "CORPSE & Night Lovell",
-	  "file": "/music/CORPSE & Night Lovell – Hot Demon Bitches Near U!!!.mp3"
+	  "file": "/beloud/music/CORPSE & Night Lovell – Hot Demon Bitches Near U!!!.mp3"
 	},
 	{
 	  "title": "E-Girls Are Ruining My Life!",
@@ -3620,7 +3620,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "CORPSE & Savage Ga$p",
-	  "file": "/music/CORPSE & Savage Ga$p – E-Girls Are Ruining My Life! (slowed).mp3"
+	  "file": "/beloud/music/CORPSE & Savage Ga$p – E-Girls Are Ruining My Life! (slowed).mp3"
 	},
 	{
 	  "title": "E-Girls Are Ruining My Life!",
@@ -3637,7 +3637,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "CORPSE & Savage Ga$p",
-	  "file": "/music/CORPSE & Savage Ga$p – E-Girls Are Ruining My Life!.mp3"
+	  "file": "/beloud/music/CORPSE & Savage Ga$p – E-Girls Are Ruining My Life!.mp3"
 	},
 	{
 	  "title": "Backend",
@@ -3654,7 +3654,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "DaBaby",
-	  "file": "/music/DaBaby – Backend.mp3"
+	  "file": "/beloud/music/DaBaby – Backend.mp3"
 	},
 	{
 	  "title": "Умри, если меня не любишь (slowed)",
@@ -3670,7 +3670,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "DAKOOKA",
-	  "file": "/music/DAKOOKA – Умри, если меня не любишь (slowed).mp3"
+	  "file": "/beloud/music/DAKOOKA – Умри, если меня не любишь (slowed).mp3"
 	},
 	{
 	  "title": "All The Way Up",
@@ -3687,7 +3687,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "David Guetta & GLOWINTHEDARK, Fat Joe & Remy Ma feat. French Montana & Infared",
-	  "file": "/music/David Guetta & GLOWINTHEDARK, Fat Joe & Remy Ma feat. French Montana & Infared – All The Way Up.mp3"
+	  "file": "/beloud/music/David Guetta & GLOWINTHEDARK, Fat Joe & Remy Ma feat. French Montana & Infared – All The Way Up.mp3"
 	},
 	{
 	  "title": "Purrposley",
@@ -3704,7 +3704,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Denzel Curry",
-	  "file": "/music/Denzel Curry – PURRPOSLEY Prod. By Sango.mp3"
+	  "file": "/beloud/music/Denzel Curry – PURRPOSLEY Prod. By Sango.mp3"
 	},
 	{
 	  "title": "Timmy Turner",
@@ -3721,7 +3721,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Desiigner",
-	  "file": "/music/Desiigner – Timmy Turner (Brothel Remix).mp3"
+	  "file": "/beloud/music/Desiigner – Timmy Turner (Brothel Remix).mp3"
 	},
 	{
 	  "title": "Timmy Turner",
@@ -3738,7 +3738,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Desiigner",
-	  "file": "/music/Desiigner – Timmy Turner.mp3"
+	  "file": "/beloud/music/Desiigner – Timmy Turner.mp3"
 	},
 	{
 	  "title": "Bankroll",
@@ -3755,7 +3755,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Diplo",
-	  "file": "/music/Diplo – Bankroll.mp3"
+	  "file": "/beloud/music/Diplo – Bankroll.mp3"
 	},
 	{
 	  "title": "Express Yourself",
@@ -3772,7 +3772,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Diplo",
-	  "file": "/music/Diplo – Express Yourself (Gent Jawns Remix).mp3"
+	  "file": "/beloud/music/Diplo – Express Yourself (Gent Jawns Remix).mp3"
 	},
 	{
 	  "title": "Welcome to the Party",
@@ -3789,7 +3789,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Diplo, French Montana & Lil Pump",
-	  "file": "/music/Diplo, French Montana & Lil Pump – Welcome to the Party.mp3"
+	  "file": "/beloud/music/Diplo, French Montana & Lil Pump – Welcome to the Party.mp3"
 	},
 	{
 	  "title": "Boss Bitch",
@@ -3804,7 +3804,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Doja Cat",
-	  "file": "/music/Doja Cat – Boss Bitch.mp3"
+	  "file": "/beloud/music/Doja Cat – Boss Bitch.mp3"
 	},
 	{
 	  "title": "Rules",
@@ -3822,7 +3822,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Doja Cat",
-	  "file": "/music/Doja Cat – Rules.mp3"
+	  "file": "/beloud/music/Doja Cat – Rules.mp3"
 	},
 	{
 	  "title": "Animale",
@@ -3838,7 +3838,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Don Diablo",
-	  "file": "/music/DonDiablo – Animale.mp3"
+	  "file": "/beloud/music/DonDiablo – Animale.mp3"
 	},
 	{
 	  "title": "Ridiculous (feat. Redman)",
@@ -3853,7 +3853,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Dope D.O.D.",
-	  "file": "/music/Dope DOD – Ridiculous (feat. Redman).mp3"
+	  "file": "/beloud/music/Dope DOD – Ridiculous (feat. Redman).mp3"
 	},
 	{
 	  "title": "Blowin' Up",
@@ -3869,7 +3869,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Downfvll",
-	  "file": "/music/Downfvll – Blowin' Up.mp3"
+	  "file": "/beloud/music/Downfvll – Blowin' Up.mp3"
 	},
 	{
 	  "title": "Yes Indeed",
@@ -3886,7 +3886,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Drake & Lil Baby",
-	  "file": "/music/Drake & Lil Baby - Yes Indeed.mp3"
+	  "file": "/beloud/music/Drake & Lil Baby - Yes Indeed.mp3"
 	},
 	{
 	  "title": "Energy",
@@ -3903,7 +3903,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Drake",
-	  "file": "/music/Drake – Energy.mp3"
+	  "file": "/beloud/music/Drake – Energy.mp3"
 	},
 	{
 	  "title": "Nonstop",
@@ -3920,7 +3920,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Drake",
-	  "file": "/music/Drake – Nonstop.mp3"
+	  "file": "/beloud/music/Drake – Nonstop.mp3"
 	},
 	{
 	  "title": "Arcade",
@@ -3937,7 +3937,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Duncan Laurence",
-	  "file": "/music/Duncan Laurence – Arcade.mp3"
+	  "file": "/beloud/music/Duncan Laurence – Arcade.mp3"
 	},
 	{
 	  "title": "In My Mind",
@@ -3953,7 +3953,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Dynoro",
-	  "file": "/music/Dynoro – In My Mind.mp3"
+	  "file": "/beloud/music/Dynoro – In My Mind.mp3"
 	},
 	{
 	  "title": "Remind Me",
@@ -3970,7 +3970,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "E SHINE",
-	  "file": "/music/E SHINE – Remind Me.mp3"
+	  "file": "/beloud/music/E SHINE – Remind Me.mp3"
 	},
 	{
 	  "title": "Home",
@@ -3987,7 +3987,7 @@ export default [
 		"meditation"
 	  ],
 	  "author": "Bearcubs",
-	  "file": "/music/Edward Sharpe & The Magnetic Zeros – Home.mp3"
+	  "file": "/beloud/music/Edward Sharpe & The Magnetic Zeros – Home.mp3"
 	},
 	{
 	  "title": "ICE",
@@ -4004,7 +4004,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "EK",
-	  "file": "/music/EK – ICE (Prod. DOBERMAN).mp3"
+	  "file": "/beloud/music/EK – ICE (Prod. DOBERMAN).mp3"
 	},
 	{
 	  "title": "Middle of the Night",
@@ -4021,7 +4021,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Elley Duhé",
-	  "file": "/music/Elley Duhé – Middle of the Night Slowed  Reverb.mp3"
+	  "file": "/beloud/music/Elley Duhé – Middle of the Night Slowed  Reverb.mp3"
 	},
 	{
 	  "title": "Juicy",
@@ -4040,7 +4040,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Emily Wells",
-	  "file": "/music/Emily Wells – Juicy.mp3"
+	  "file": "/beloud/music/Emily Wells – Juicy.mp3"
 	},
 	{
 	  "title": "Berzerk",
@@ -4057,7 +4057,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Eminem",
-	  "file": "/music/Eminem – Berzerk.mp3"
+	  "file": "/beloud/music/Eminem – Berzerk.mp3"
 	},
 	{
 	  "title": "Gucci Gang",
@@ -4074,7 +4074,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Eminem",
-	  "file": "/music/Eminem – Gucci Gang [Remix].mp3"
+	  "file": "/beloud/music/Eminem – Gucci Gang [Remix].mp3"
 	},
 	{
 	  "title": "Rap",
@@ -4093,7 +4093,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "BONES",
-	  "file": "/music/Eminem – Rap God.mp3"
+	  "file": "/beloud/music/Eminem – Rap God.mp3"
 	},
 	{
 	  "title": "Machine",
@@ -4109,7 +4109,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Esthetic Education",
-	  "file": "/music/Esthetic Education – Machine.mp3"
+	  "file": "/beloud/music/Esthetic Education – Machine.mp3"
 	},
 	{
 	  "title": "Pain",
@@ -4126,7 +4126,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ezediel",
-	  "file": "/music/Ezediel – Pain.mp3"
+	  "file": "/beloud/music/Ezediel – Pain.mp3"
 	},
 	{
 	  "title": "МОЙ КАЛАШНИКОВ",
@@ -4143,7 +4143,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "FACE",
-	  "file": "/music/FACE – Мой Калашников.mp3"
+	  "file": "/beloud/music/FACE – Мой Калашников.mp3"
 	},
 	{
 	  "title": "СПАСАТЕЛЬНЫЙ КРУГ",
@@ -4160,7 +4160,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "FACE",
-	  "file": "/music/FACE – СПАСАТЕЛЬНЫЙ КРУГ.mp3"
+	  "file": "/beloud/music/FACE – СПАСАТЕЛЬНЫЙ КРУГ.mp3"
 	},
 	{
 	  "title": "Юморист",
@@ -4176,7 +4176,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "FACE",
-	  "file": "/music/FACE – Юморист.mp3"
+	  "file": "/beloud/music/FACE – Юморист.mp3"
 	},
 	{
 	  "title": "Pick It Up",
@@ -4193,7 +4193,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Famous Dex",
-	  "file": "/music/Famous Dex – Pick It Up.mp3"
+	  "file": "/beloud/music/Famous Dex – Pick It Up.mp3"
 	},
 	{
 	  "title": "Lordly",
@@ -4209,7 +4209,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Feder",
-	  "file": "/music/Feder – Lordly (feat. Alex Aiono).mp3"
+	  "file": "/beloud/music/Feder – Lordly (feat. Alex Aiono).mp3"
 	},
 	{
 	  "title": "Pain",
@@ -4226,7 +4226,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Ezediel",
-	  "file": "/music/Flo Rida – Low(ft. T-Pain).mp3"
+	  "file": "/beloud/music/Flo Rida – Low(ft. T-Pain).mp3"
 	},
 	{
 	  "title": "Soundclash",
@@ -4242,7 +4242,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Flosstradamus & TroyBoi",
-	  "file": "/music/Flosstradamus & TroyBoi – Soundclash.mp3"
+	  "file": "/beloud/music/Flosstradamus & TroyBoi – Soundclash.mp3"
 	},
 	{
 	  "title": "Bass Canon",
@@ -4258,7 +4258,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Flux Pavilion",
-	  "file": "/music/Flux Pavilion – Bass Canon.mp3"
+	  "file": "/beloud/music/Flux Pavilion – Bass Canon.mp3"
 	},
 	{
 	  "title": "Low",
@@ -4275,7 +4275,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Flo Rida",
-	  "file": "/music/Future – Low Life.mp3"
+	  "file": "/beloud/music/Future – Low Life.mp3"
 	},
 	{
 	  "title": "1942 (feat. Yo Gotti & YBN Nahmir)",
@@ -4292,7 +4292,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "G-Eazy",
-	  "file": "/music/G-Eazy – 1942 (feat. Yo Gotti & YBN Nahmir).mp3"
+	  "file": "/beloud/music/G-Eazy – 1942 (feat. Yo Gotti & YBN Nahmir).mp3"
 	},
 	{
 	  "title": "Disrespectful",
@@ -4309,7 +4309,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "G4SHI",
-	  "file": "/music/G4SHI – Disrespectful.mp3"
+	  "file": "/beloud/music/G4SHI – Disrespectful.mp3"
 	},
 	{
 	  "title": "Ghost",
@@ -4326,7 +4326,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Confetti",
-	  "file": "/music/Ghostemane – Fed Up (slowed & reverb).mp3"
+	  "file": "/beloud/music/Ghostemane – Fed Up (slowed & reverb).mp3"
 	},
 	{
 	  "title": "Ghost",
@@ -4343,7 +4343,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Confetti",
-	  "file": "/music/Ghostemane – Hack Slash.mp3"
+	  "file": "/beloud/music/Ghostemane – Hack Slash.mp3"
 	},
 	{
 	  "title": "Ghost",
@@ -4360,7 +4360,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Confetti",
-	  "file": "/music/Ghostemane – Stick Out.mp3"
+	  "file": "/beloud/music/Ghostemane – Stick Out.mp3"
 	},
 	{
 	  "title": "IMJMWDP",
@@ -4377,7 +4377,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "GIRIBOY, NO:EL, Black Nut, Young B, Osshun Gum, YUNHWAY, JUSTHIS, Jvcki Wai, Kid Milli & Han Yo Han",
-	  "file": "/music/GIRIBOY, NO EL, Black Nut, Young B, Osshun Gum, YUNHWAY, JUSTHIS, Jvcki Wai, Kid Milli & Han Yo Han – IMJMWDP.mp3"
+	  "file": "/beloud/music/GIRIBOY, NO EL, Black Nut, Young B, Osshun Gum, YUNHWAY, JUSTHIS, Jvcki Wai, Kid Milli & Han Yo Han – IMJMWDP.mp3"
 	},
 	{
 	  "title": "God's Plan",
@@ -4395,7 +4395,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Drake",
-	  "file": "/music/God's Plan.mp3"
+	  "file": "/beloud/music/God's Plan.mp3"
 	},
 	{
 	  "title": "HUMANSUIT",
@@ -4412,7 +4412,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "GONE.Fludd",
-	  "file": "/music/GONE.Fludd – HUMANSUIT.mp3"
+	  "file": "/beloud/music/GONE.Fludd – HUMANSUIT.mp3"
 	},
 	{
 	  "title": "САХАРНЫЙ ЧЕЛОВЕК",
@@ -4429,7 +4429,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "GONE.Fludd",
-	  "file": "/music/GONE.Fludd – САХАРНЫЙ ЧЕЛОВЕК.mp3"
+	  "file": "/beloud/music/GONE.Fludd – САХАРНЫЙ ЧЕЛОВЕК.mp3"
 	},
 	{
 	  "title": "Так Вот!",
@@ -4446,7 +4446,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "GONE.Fludd",
-	  "file": "/music/GONE.Fludd – Так Вот!.mp3"
+	  "file": "/beloud/music/GONE.Fludd – Так Вот!.mp3"
 	},
 	{
 	  "title": "Зашей",
@@ -4463,7 +4463,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "GONE.Fludd, IROH",
-	  "file": "/music/GONE.Fludd, IROH – Зашей.mp3"
+	  "file": "/beloud/music/GONE.Fludd, IROH – Зашей.mp3"
 	},
 	{
 	  "title": "Clint Eastwood",
@@ -4481,7 +4481,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Gorillaz",
-	  "file": "/music/Gorillaz – Clint Eastwood.mp3"
+	  "file": "/beloud/music/Gorillaz – Clint Eastwood.mp3"
 	},
 	{
 	  "title": "Feel Good",
@@ -4499,7 +4499,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Gorillaz",
-	  "file": "/music/Gorillaz – Feel Good.mp3"
+	  "file": "/beloud/music/Gorillaz – Feel Good.mp3"
 	},
 	{
 	  "title": "Kids with Guns",
@@ -4516,7 +4516,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Gorillaz",
-	  "file": "/music/Gorillaz – Kids with Guns.mp3"
+	  "file": "/beloud/music/Gorillaz – Kids with Guns.mp3"
 	},
 	{
 	  "title": "Rhinestone Eyes",
@@ -4533,7 +4533,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Gorillaz",
-	  "file": "/music/Gorillaz – Rhinestone Eyes.mp3"
+	  "file": "/beloud/music/Gorillaz – Rhinestone Eyes.mp3"
 	},
 	{
 	  "title": "Saturnz Barz (feat. Popcaan)",
@@ -4550,7 +4550,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Gorillaz",
-	  "file": "/music/Gorillaz – Saturnz Barz (feat. Popcaan).mp3"
+	  "file": "/beloud/music/Gorillaz – Saturnz Barz (feat. Popcaan).mp3"
 	},
 	{
 	  "title": "Stylo",
@@ -4566,7 +4566,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Gorillaz",
-	  "file": "/music/Gorillaz – Stylo.mp3"
+	  "file": "/beloud/music/Gorillaz – Stylo.mp3"
 	},
 	{
 	  "title": "Квіти в волоссі",
@@ -4583,7 +4583,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "Бумбокс",
-	  "file": "/music/Бумбокс – Квіти в волоссі.mp3"
+	  "file": "/beloud/music/Бумбокс – Квіти в волоссі.mp3"
 	},
 	{
 	  "title": "Карпатський Реп",
@@ -4599,7 +4599,7 @@ export default [
 		"travel"
 	  ],
 	  "author": "ДахаБраха",
-	  "file": "/music/ДахаБраха – Карпатський Реп.mp3"
+	  "file": "/beloud/music/ДахаБраха – Карпатський Реп.mp3"
 	},
 	{
 	  "title": "Крики",
@@ -4617,6 +4617,6 @@ export default [
 		"travel"
 	  ],
 	  "author": "Дельфин",
-	  "file": "/music/Дельфин – Крики.mp3"
+	  "file": "/beloud/music/Дельфин – Крики.mp3"
 	}
   ]

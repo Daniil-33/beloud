@@ -12,12 +12,14 @@ export default function useSongs() {
 	const filteredLoadedAudio = ref([]);
 	const popularLoadedAudio = ref([]);
 	const userMayLikeLoadedAudio = ref([]);
+	const topChartLoadedAudio = ref([]);
 
 	const loadingFlags = reactive({
 		loadingSingleAudio: false,
 		loadingFilteredAudio: false,
 		loadingPopularAudio: false,
 		loadingUserMayLikeAudio: false,
+		loadingTopChatAudio: false,
 	});
 
 	const getAudioById = (id) => {
@@ -66,6 +68,15 @@ export default function useSongs() {
 			.finally(() => loadingFlags.loadingUserMayLikeAudio = false);
 	}
 
+	const getTopChartAudio = () => {
+		loadingFlags.loadingTopChatAudio = true;
+
+		ApiService.request('getTopChatAudio', {})
+			.then((audios) => topChartLoadedAudio.value = audios)
+			.catch((error) => console.log(error))
+			.finally(() => loadingFlags.loadingTopChatAudio = false);
+	}
+
 	return {
 		loadingFlags,
 
@@ -73,10 +84,12 @@ export default function useSongs() {
 		filteredLoadedAudio,
 		popularLoadedAudio,
 		userMayLikeLoadedAudio,
+		topChartLoadedAudio,
 
 		getAudioById,
 		getAudioFiltered,
 		getPopularAudio,
-		getUserMayLikeAudio
+		getUserMayLikeAudio,
+		getTopChartAudio
 	};
 }

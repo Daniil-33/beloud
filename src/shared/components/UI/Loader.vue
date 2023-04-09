@@ -1,13 +1,13 @@
 <template>
-	<div class="audio-loader">
+	<div class="loader">
 		<slot v-if="!loading"></slot>
-		<div class="audio-loader__loading-inner" v-else>
+		<div class="loader__loading-inner" v-else>
 			<v-progress-circular indeterminate color="accent"></v-progress-circular>
 		</div>
 	</div>
 </template>
 <script>
-import SongCard from './SongCard.vue'
+import SongCard from '../../../modules/Songs/components/UI/SongCard.vue'
 
 export default {
 	name: 'Loader',
@@ -33,8 +33,8 @@ export default {
 	},
 }
 </script>
-<style lang="scss">
-.audio-loader {
+<style scoped lang="scss">
+.loader {
 	width: 100%;
 	position: relative;
 	min-height: 200px;
