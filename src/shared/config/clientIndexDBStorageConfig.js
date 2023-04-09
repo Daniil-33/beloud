@@ -25,7 +25,7 @@ export const STORES_METHODS_MAP = {
     },
     [STORE_MAP.USER_DATA]: {
         GET: 'getUserData',
-        SET: 'setUSerData'
+        SET: 'setUserData'
     },
 }
 

@@ -41,4 +41,14 @@ export default [
 		method: 'DELETE',
 		handler: userController.unlikeAudio,
 	},
+	{
+		url: '/user/recently-played/',
+		method: 'GET',
+		handler: userController.getRecentlyPlayedAudios,
+	},
+	{
+		url: '/user/recently-played/',
+		method: 'POST',
+		handler: userController.addRecentlyPlayedAudio,
+	},
 ]

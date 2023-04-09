@@ -12,6 +12,11 @@ export default [
 		handler: audioController.getPopularAudio,
 	},
 	{
+		url: '/audio/top-chart',
+		method: 'GET',
+		handler: audioController.getTopChartAudio,
+	},
+	{
 		url: '/audio/user-may-like',
 		method: 'GET',
 		handler: audioController.getPopularAudio,
