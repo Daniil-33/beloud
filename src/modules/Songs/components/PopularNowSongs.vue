@@ -41,7 +41,7 @@ export default {
 
 		const onSongClick = (song) => {
 			playSong(song);
-			setStream(popularLoadedAudio);
+			setStream(popularLoadedAudio.value);
 		}
 
 		getPopularAudio()

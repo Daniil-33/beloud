@@ -4,12 +4,12 @@ import { usePlayerStore as playerStore } from './stores/playerStore';
 const usePlayerStoreWrap = () => {
 	const {
 		playSong,
-		setStream
+		setStream,
 	} = playerStore();
 
 	return {
 		playSong,
-		setStream
+		setStream,
 	}
 }
 
