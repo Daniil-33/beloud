@@ -32,7 +32,7 @@ export default {
 		const { isAuth } = useAuthModule();
 
 		const layoutName = computed(() => {
-			return isAuth.value ? DefaultLayout : EmptyLayout;
+			return DefaultLayout
 		});
 
 		return {

@@ -3,6 +3,10 @@ export default {
 		url: '/audio',
 		method: 'GET',
 	},
+	getTopChatAudio: {
+		url: '/audio/top-chart',
+		method: 'GET',
+	},
 	getPopularAudio: {
 		url: '/audio/popular',
 		method: 'GET',
@@ -10,5 +14,5 @@ export default {
 	getUserMayLikeAudio: {
 		url: '/audio/user-may-like',
 		method: 'GET',
-	}
+	},
 }

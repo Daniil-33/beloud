@@ -28,6 +28,7 @@ export default class ApiService {
 			...this.config[endpointName],
 			url: this._generateRequestUrl(endpointName, params),
 			data,
+			params,
 		};
 	}
 
@@ -40,9 +41,9 @@ export default class ApiService {
 			throw new Error(`Endpoint ${endpointName} not found`);
 		}
 
-		if (!this.requestService.isAccessTokenExist() && this.moduleName !== 'auth') {
-			throw new Error('Access token was not set');
-		}
+		// if (!this.requestService.isAccessTokenExist() && this.moduleName !== 'auth') {
+		// 	throw new Error('Access token was not set');
+		// }
 
 		const requestPayload = this._createRequestPayload(endpointName, requestConfig);
 

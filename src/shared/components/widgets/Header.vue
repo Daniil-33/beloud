@@ -34,20 +34,16 @@ export default {
 	setup() {
 		const navigationLinks = [
 			{
-				title: 'Home',
+				title: 'Головна',
 				to: '/',
 			},
 			{
-				title: 'Library',
+				title: 'Бібліотека',
 				to: '/library',
 			},
 			{
-				title: 'Navigator',
+				title: 'Навігатор',
 				to: '/navigator',
-			},
-			{
-				title: 'Playlists',
-				to: '/playlists',
 			},
 		]
 		return {

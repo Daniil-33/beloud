@@ -1,7 +1,15 @@
+import ApiService from '../api/';
+import { clientStorageLocal } from '@/shared/helpers/clientStorageHelper';
+import { LOCAL_STORAGE_AUTH_ACCESS_TOKEN_KEY } from '@/shared/consts/clientStorageKeys';
+
 import { ref, reactive } from 'vue';
 
 export default function useUser() {
+	const accessToken = clientStorageLocal.get(LOCAL_STORAGE_AUTH_ACCESS_TOKEN_KEY);
+	ApiService.setAccessToken(accessToken)
+
 	const loadingFlags = reactive({
+		loadingUserPlayList: false,
 		loadingUserPlayLists: false,
 		creatingUserPlayList: false,
 		deletingUserPlayList: false,
@@ -11,15 +19,32 @@ export default function useUser() {
 		loadingUserLikedAudios: false,
 		addingUserLikedAudio: false,
 		deletingUserLikedAudio: false,
+
+		loadingUserRecentlyListenedAudios: false,
 	});
 
+	const userLoadedPlayList = ref(null);
 	const userPlayLists = ref([]);
 	const userLikedAudios = ref([]);
+	const userRecentlyListenedAudios = ref([]);
+
+	const getUserPlaylist = (id) => {
+		loadingFlags.loadingUserPlayList = true;
+
+		return ApiService.request('getUserPlayLists', {
+			params: {
+				id
+			}
+		})
+			.then((playlist) => userLoadedPlayList.value = playlist)
+			.catch((error) => console.log(error))
+			.finally(() => loadingFlags.loadingUserPlayList = false);
+	}
 
 	const getUserPlayLists = () => {
 		loadingFlags.loadingUserPlayLists = true;
 
-		ApiService.request('getUserPlayLists', {})
+		return ApiService.request('getUserPlayLists', {})
 			.then((playlists) => userPlayLists.value = playlists)
 			.catch((error) => console.log(error))
 			.finally(() => loadingFlags.loadingUserPlayLists = false);
@@ -28,12 +53,11 @@ export default function useUser() {
 	const createUserPlayList = (name) => {
 		loadingFlags.creatingUserPlayList = true;
 
-		ApiService.request('createUserPlayList', {
+		return ApiService.request('createUserPlayList', {
 			data: {
 				name
 			}
 		})
-			.then(() => getUserPlayLists())
 			.catch((error) => console.log(error))
 			.finally(() => loadingFlags.creatingUserPlayList = false);
 	};
@@ -41,9 +65,9 @@ export default function useUser() {
 	const deleteUserPlayList = (id) => {
 		loadingFlags.deletingUserPlayList = true;
 
-		ApiService.request('deleteUserPlayList', {
+		return ApiService.request('deleteUserPlayList', {
 			params: {
-				id
+				playlistId: id
 			}
 		})
 			.then(() => getUserPlayLists())
@@ -54,7 +78,7 @@ export default function useUser() {
 	const addAudioToUserPlayList = (playlistId, audioId) => {
 		loadingFlags.addingAudioToUserPlayList = true;
 
-		ApiService.request('addAudioToUserPlayList', {
+		return ApiService.request('addAudioToUserPlayList', {
 			data: {
 				playlistId,
 				audioId
@@ -68,7 +92,7 @@ export default function useUser() {
 	const deleteAudioFromUserPlayList = (playlistId, audioId) => {
 		loadingFlags.deletingAudioFromUserPlayList = true;
 
-		ApiService.request('deleteAudioFromUserPlayList', {
+		return ApiService.request('deleteAudioFromUserPlayList', {
 			data: {
 				playlistId,
 				audioId
@@ -82,7 +106,7 @@ export default function useUser() {
 	const getUserLikedAudios = () => {
 		loadingFlags.loadingUserLikedAudios = true;
 
-		ApiService.request('getUserLikedAudios', {})
+		return ApiService.request('getUserLikedAudios', {})
 			.then((audios) => userLikedAudios.value = audios)
 			.catch((error) => console.log(error))
 			.finally(() => loadingFlags.loadingUserLikedAudios = false);
@@ -91,7 +115,7 @@ export default function useUser() {
 	const addUserLikedAudio = (audioId) => {
 		loadingFlags.addingUserLikedAudio = true;
 
-		ApiService.request('addUserLikedAudio', {
+		return ApiService.request('addUserLikedAudio', {
 			data: {
 				audioId
 			}
@@ -104,7 +128,7 @@ export default function useUser() {
 	const deleteUserLikedAudio = (audioId) => {
 		loadingFlags.deletingUserLikedAudio = true;
 
-		ApiService.request('deleteUserLikedAudio', {
+		return ApiService.request('deleteUserLikedAudio', {
 			data: {
 				audioId
 			}
@@ -114,11 +138,33 @@ export default function useUser() {
 			.finally(() => loadingFlags.deletingUserLikedAudio = false);
 	};
 
+	const getUserRecentlyListenedAudios = () => {
+		loadingFlags.loadingUserRecentlyListenedAudios = true;
+
+		return ApiService.request('getUserRecentlyListenedAudio', {})
+			.then((audios) => userRecentlyListenedAudios.value = audios)
+			.catch((error) => console.log(error))
+			.finally(() => loadingFlags.loadingUserRecentlyListenedAudios = false);
+	}
+
+	const addRecentlyListenedAudio = (audioId) => {
+		return ApiService.request('addUserRecentlyListenedAudio', {
+			data: {
+				audioId
+			}
+		})
+			.then(() => getUserRecentlyListenedAudios())
+			.catch((error) => console.log(error))
+	}
+
 	return {
 		loadingFlags,
+		userLoadedPlayList,
 		userPlayLists,
 		userLikedAudios,
+		userRecentlyListenedAudios,
 
+		getUserPlaylist,
 		getUserPlayLists,
 		createUserPlayList,
 		deleteUserPlayList,
@@ -128,5 +174,8 @@ export default function useUser() {
 		getUserLikedAudios,
 		addUserLikedAudio,
 		deleteUserLikedAudio,
+
+		getUserRecentlyListenedAudios,
+		addRecentlyListenedAudio,
 	};
 }
