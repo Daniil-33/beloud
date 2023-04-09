@@ -1,11 +1,26 @@
 <template>
-	<v-sheet class="d-flex justify-center">
-		<v-btn-toggle v-model="selectedGenre">
-			<v-btn v-for="(item) in genresList" :key="item.value" :value="item.value" class="bg-dark" color="secondary"
-				selected-class="genre-btn--active">
-				{{ item.title }}
-			</v-btn>
-		</v-btn-toggle>
+	<v-sheet class="d-flex justify-center p-x">
+		<div class="w-1280-block w-100">
+			<v-btn-toggle v-model="selectedGenre">
+				<v-btn v-for="(item) in genresList" :key="item.value" :value="item.value" class="bg-dark" color="secondary"
+					selected-class="genre-btn--active">
+					{{ item.title }}
+				</v-btn>
+			</v-btn-toggle>
+		</div>
+		<div class="w-1280-none w-100">
+			<v-select
+			
+				v-model="selectedGenre"
+				:items="genresList"
+				item-title="title"
+				item-value="value"
+				label="Select"
+				persistent-hint
+				return-object
+				single-line
+			></v-select>
+		</div>
 	</v-sheet>
 	<div class="home__swiper mt-15">
 		<div class="title">
@@ -90,7 +105,5 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.swiper-container {
-	padding: 0 100px;
-}
+
 </style>

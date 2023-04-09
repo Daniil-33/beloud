@@ -1,5 +1,6 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
+import { debounce } from 'lodash'
 
 const createAudio = (url, { onEnd, onReady, onPause, onPlay  }) => {
 	const audio = new Audio(url)
@@ -28,8 +29,8 @@ export const usePlayerStore = defineStore('player', () => {
 	const stream = ref([])
 
 	const currentSongIndexInStream = computed(() => stream.value.findIndex(song => song.id === currentSong.value.id))
-	const canMoveToPrev = computed(() => currentSongIndexInStream > 0)
-	const canMoveToNext = computed(() => currentSongIndexInStream < stream.value.length - 1)
+	const canMoveToPrev = computed(() => currentSongIndexInStream.value > 0)
+	const canMoveToNext = computed(() => currentSongIndexInStream.value < stream.value.length - 1)
 	const isPlayerVisible = computed(() => currentSong.value !== null)
 
 	const playSong = (song) => {
@@ -37,6 +38,7 @@ export const usePlayerStore = defineStore('player', () => {
 			currentAudio.value.pause();
 		}
 
+		window.currentAudio = currentAudio;
 		currentSong.value = song;
 
 		currentAudio.value = createAudio(song.file, {
@@ -56,12 +58,11 @@ export const usePlayerStore = defineStore('player', () => {
 
 		isPlaying.value = true;
 		currentAudio.value.play();
+		duration.value = currentAudio.value.duration;
 
 		checker.value = setInterval(() => {
 			currentTime.value = currentAudio.value.currentTime;
-			duration.value = currentAudio.value.duration;
-			// volume.value = currentAudio.value.volume * 100;
-		}, 100)
+		}, 1000)
 	}
 
 	const pauseSong = () => {
@@ -100,6 +101,17 @@ export const usePlayerStore = defineStore('player', () => {
 		isRepeat.value = !isRepeat.value;
 	}
 
+	const applyCurrentTime = debounce((value) => {
+		currentAudio.value.currentTime = value;
+	}, 100)
+
+	const setCurrentTime = (value) => {
+		if (!currentAudio.value) return;
+
+		currentTime.value = value;
+		applyCurrentTime(value);
+	}
+
 	return {
 		currentSong,
 		stream,
@@ -120,6 +132,7 @@ export const usePlayerStore = defineStore('player', () => {
 		setStream,
 		moveToPrev,
 		moveToNext,
-		toggleRepeat
+		toggleRepeat,
+		setCurrentTime
 	}
 })

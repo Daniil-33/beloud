@@ -4,6 +4,7 @@ import Auth from '@/views/Auth.vue'
 import Home from '@/views/Home.vue'
 import Library from '@/views/Library.vue'
 import Navigator from '@/views/Navigator.vue'
+import Playlists from '@/views/Playlists.vue'
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,11 @@ const router = createRouter({
 			name: 'Auth',
 			path: '/auth',
 			component: Auth,
+		},
+		{
+			name: 'Playlists',
+			path: '/playlists',
+			component: Playlists,
 		}
 	],
 })
